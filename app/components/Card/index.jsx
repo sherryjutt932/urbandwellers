@@ -1,8 +1,10 @@
+"use client";
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
 import { GoArrowUpRight } from "react-icons/go";
 
 export default function Card({ item }) {
+  const [isLoading, setIsLoading] = useState(true);
   return (
     <div className="w-[30vw] min-w-[500px] h-full border-r border-borderClr flex flex-col">
       {/* Heading */}
@@ -42,9 +44,21 @@ export default function Card({ item }) {
         </div>
 
         {/* Image */}
-        <div className="overflow-hidden w-full">
+        {/* <div className="overflow-hidden w-full">
           <Image className="aspect-video w-full object-cover" src={item.img} width={1000} height={1000}></Image>
-        </div>
+        </div> */}
+
+          <div className="relative overflow-hidden w-full aspect-video rounded-sm">
+            <Image
+              onLoad={() => setIsLoading(false)}
+              className="w-full object-cover"
+              src={item.img}
+              width={1000}
+              height={1000}
+            ></Image>
+            {isLoading && (
+            <div className="absolute top-0 left-0 h-full w-full skeleton"></div>)}
+          </div>
       </div>
     </div>
   );
