@@ -7,7 +7,7 @@ export default function Menu() {
   return (
     <div className="bg-light text-dark w-full h-[460px] absolute top-[90px] left-0 flex z-50">
       <div className="border-r border-borderClrL flex-1 flex flex-col">
-        <p className="uppercase  border-b border-borderClrL p-2 leading-none text-xs font-bold">
+        <p className="uppercase  border-b border-borderClrL px-2 h-7 flex items-center flex-shrink-0 leading-none text-xs font-bold">
           navigation
         </p>
         <ul className="flex-grow flex flex-col">
@@ -36,7 +36,7 @@ export default function Menu() {
         </ul>
       </div>
       <div className="border-r border-borderClrL flex-1 flex flex-col">
-        <p className="uppercase border-b border-borderClrL p-2 leading-none text-xs font-bold">
+        <p className="uppercase border-b border-borderClrL px-2 h-7 flex items-center flex-shrink-0 leading-none text-xs font-bold">
           Connect
         </p>
         <ul className="flex-grow flex flex-col">
@@ -63,7 +63,7 @@ export default function Menu() {
         </div>
       </div>
       <div className="border-r border-borderClrL flex-1 flex flex-col font-medium leading-snug">
-        <p className="uppercase border-b border-borderClrL p-2 leading-none text-xs font-bold">
+        <p className="uppercase border-b border-borderClrL px-2 h-7 flex items-center flex-shrink-0 leading-none text-xs font-bold">
           NEWSLETTER
         </p>
         <p className="p-6 mb-5">
@@ -85,7 +85,7 @@ export default function Menu() {
         </button>
       </div>
       <div className="flex-1 flex flex-col font-medium leading-snug">
-        <p className="uppercase border-b border-borderClrL p-2 leading-none text-xs font-bold">
+        <p className="uppercase border-b border-borderClrL px-2 h-7 flex items-center flex-shrink-0 leading-none text-xs font-bold">
           LOGIN / REGISTER
         </p>
 

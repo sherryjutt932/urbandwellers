@@ -26,7 +26,7 @@ export default function Header() {
   };
 
   return (
-    <div className={`h-[90px] container_center border border-borderClr text-lg relative`}>
+    <div className={`h-[90px] container_center border-b border-borderClr text-lg relative`}>
       <div className='container_center px-8 border-r  border-borderClr h-full'>
         <Link href='/' className='w-full py-2 h-full cursor-pointer'>
           <Image className='w-auto h-full' src="/urbanlogo.png" width={300}  height={300}></Image>

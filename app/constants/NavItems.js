@@ -1,15 +1,11 @@
 const Navitems = [
     {
-        title:"Synthesizer",
-        url:"/pages/Synthesizer"
+        title:"Artists",
+        url:"/pages/Artists"
     },
     {
-        title:"Original Series",
-        url:"/pages/Series"
-    },
-    {
-        title:"News",
-        url:"/pages/News"
+        title:"Events",
+        url:"/pages/Events"
     }
 ]
 

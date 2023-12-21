@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import Latest from "./constants/Latest";
 import Card from "./components/Card";
 

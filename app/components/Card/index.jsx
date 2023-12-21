@@ -1,14 +1,16 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 import React, { useState } from "react";
 import { GoArrowUpRight } from "react-icons/go";
 
 export default function Card({ item }) {
   const [isLoading, setIsLoading] = useState(true);
   return (
-    <div className="w-[30vw] min-w-[500px] h-full border-r border-borderClr flex flex-col">
+    <Link href={item.url}>
+    <div className="w-[30vw] min-w-[500px] hover:bg-[#181514] transition-all h-full border-r border-borderClr flex flex-col">
       {/* Heading */}
-      <p className="uppercase border-b border-light bg-light text-dark p-2 leading-none text-xs font-bold">
+      <p className="uppercase border-b border-light bg-light text-dark px-2 h-7 flex items-center flex-shrink-0 leading-none text-xs font-bold">
         {item.category}
       </p>
 
@@ -61,5 +63,6 @@ export default function Card({ item }) {
           </div>
       </div>
     </div>
+    </Link>
   );
 }
