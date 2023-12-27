@@ -1,5 +1,5 @@
-import Latest from "@/app/constants/Latest";
-import Card from "@/app/components/Card";
+import ArtistsList from "@/app/constants/Artists";
+import ArtistCard from "@/app/components/ArtistCard";
 import Filter from "@/app/components/Filter";
 import ArtistsFilter from "@/app/constants/ArtistsFilter";
 
@@ -8,9 +8,9 @@ export default function Artists() {
     <div className='flex flex-nowrap w-fit h-full'>
         <Filter item={ArtistsFilter} name="artists"/>
       {
-        Latest.map((item, index)=>{
+        ArtistsList.map((item, index)=>{
           return(
-            <Card key={index} item={item} className='w-screen h-screen border border-borderClr' />
+            <ArtistCard key={index} item={item} className='w-screen h-screen border border-borderClr' />
           )
         })
       }

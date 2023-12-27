@@ -1,14 +1,11 @@
-import EventsList from "@/app/constants/Events";
+import NewsList from "@/app/constants/News";
 import Card from "@/app/components/Card";
-import Filter from "@/app/components/Filter";
-import EventsFilter from "@/app/constants/EventsFilter";
 
-export default function Events() {
+export default function News() {
   return (
     <div className='flex flex-nowrap w-fit h-full'>
-        <Filter item={EventsFilter} name="events"/>
       {
-        EventsList.map((item, index)=>{
+        NewsList.map((item, index)=>{
           return(
             <Card key={index} item={item} className='w-screen h-screen border border-borderClr' />
           )

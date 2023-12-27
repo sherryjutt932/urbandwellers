@@ -6,6 +6,14 @@ const Navitems = [
     {
         title:"Events",
         url:"/pages/Events"
+    },
+    {
+        title:"Merch",
+        url:"/pages/Merch"
+    },
+    {
+        title:"News",
+        url:"/pages/News"
     }
 ]
 

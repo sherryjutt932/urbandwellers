@@ -60,13 +60,13 @@ const Latest = [
       img: "/image6.jpg",
     },
     {
-      category: "technology",
+      category: "artist",
       tags: ["gadgets", "innovation"],
       title: "Innovative Gadgets Expo 2023: A Glimpse into the Future",
       detail:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
       urlLabel: "Discover Gadgets",
-      url: "/pages/technology",
+      url: "/pages/artist",
       img: "/image7.gif",
     },
     {
@@ -90,13 +90,13 @@ const Latest = [
       img: "/image9.jpg",
     },
     {
-      category: "technology",
+      category: "artist",
       tags: ["robotics", "innovation"],
       title: "Advancements in Robotics: Transforming Industries",
       detail:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
       urlLabel: "Explore Robotics",
-      url: "/pages/technology",
+      url: "/pages/artist",
       img: "/image10.png",
     },
   ];

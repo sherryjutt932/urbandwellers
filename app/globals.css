@@ -8,8 +8,13 @@
   box-sizing: border-box;
 }
 
-html, main{
+html{
   background-color: #0E0E0E;
+}
+
+main{
+  background-color: #0E0E0E;
+  overflow-x: scroll;
 }
 
 body{

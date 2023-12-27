@@ -5,13 +5,14 @@ import Link from 'next/link';
 import { VscMenu } from 'react-icons/vsc';
 import { RiSearchLine } from "react-icons/ri";
 import { IoClose } from "react-icons/io5";
-
+import { usePathname } from 'next/navigation' 
 import Image from 'next/image';
 import Menu from './Menu';
 
 export default function Header() {
   const [isSearchActive, setIsSearchActive] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const pathname = usePathname()      
 
   const handleSearchFocus = () => {
     setIsSearchActive(true);
@@ -33,11 +34,13 @@ export default function Header() {
         </Link>
       </div>
       <ul
-        className={`${isSearchActive ? 'w-0 p-0' : 'w-fit px-8'} transition_theme overflow-hidden container_center h-full border-r border-borderClr`}
+        className={`${isSearchActive ? 'w-0 p-0' : 'w-fit px-8'} transition_theme overflow-hidden flex h-full border-r border-borderClr`}
       >
           {Navitems.map((item, index) => (
-        <li key={index}>
-            <Link href={item.url}  className={` ${isSearchActive ? 'opacity-0' : 'opacity-100'} transition_theme hover:opacity-80 px-8 whitespace-nowrap`}>
+        <li key={index} >
+            <Link href={item.url}  className={` ${isSearchActive ? 'opacity-0' : 'opacity-100'} border-[#faaf4a] h-full transition-all flex items-center hover:opacity-80 px-8 whitespace-nowrap ${
+                  pathname === item.url ? 'text-[#faaf4a] border-t-4 ' : 'text-white'
+                }`}>
               {item.title}
             </Link>
         </li>
