@@ -8,7 +8,7 @@ export default function MerchCard({ item }) {
   const [isLoading, setIsLoading] = useState(true);
   return (
     <Link href={item.url}>
-    <div className="w-[25vw] min-w-[400px] hover:bg-[#181514] transition-all h-full border-r border-borderClr flex flex-col">
+    <div className="w-[90vw] sm:w-[25vw] sm:min-w-[400px] hover:bg-[#181514] transition-all h-full border-r border-borderClr flex flex-col">
       {/* Heading */}
       <p className="uppercase border-b border-light bg-light text-dark px-2 h-7 flex items-center flex-shrink-0 leading-none text-xs font-bold">
         {item.category}
@@ -19,7 +19,7 @@ export default function MerchCard({ item }) {
         <hr className="border-t border-borderClr w-full" />
 
         {/* Detail */}
-        <h1 className="text-5xl font-medium leading-tight">{item.title}</h1>
+        <h1 className="text-4xl sm:text-5xl font-medium leading-tight">{item.title}</h1>
         <p className="text-xl text-[#878080]">{item.price}</p>
 
         {/* Link */}

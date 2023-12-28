@@ -7,7 +7,7 @@ import { GoArrowUpRight } from "react-icons/go";
 export default function Card({ item }) {
   const [isLoading, setIsLoading] = useState(true);
   return (
-    <div className="w-[30vw] min-w-[500px] hover:bg-[#181514] transition-all h-full border-r border-borderClr flex flex-col">
+    <div className="w-[90vw] sm:w-[30vw] sm:min-w-[500px]  hover:bg-[#181514] transition-all h-full border-r border-borderClr flex flex-col">
     {/* Heading */}
     <p className="uppercase border-b border-light bg-light text-dark px-2 h-7 flex items-center flex-shrink-0 leading-none text-xs font-bold">
       {item.category}
@@ -18,7 +18,7 @@ export default function Card({ item }) {
       <hr className="border-t border-borderClr w-full" />
 
       {/* Detail */}
-      <h1 className="text-5xl font-medium leading-tight">{item.title}</h1>
+      <h1 className="text-3xl sm:text-5xl font-medium leading-tight">{item.title}</h1>
 
       {/* Link */}
       <div className="flex gap-6">
@@ -58,7 +58,7 @@ export default function Card({ item }) {
           );
         })}
       </div>
-      <h3 className="text-2xl font-medium leading-tight" >{item.latest}</h3>
+      <h3 className="text-base sm:text-2xl font-medium leading-tight" >{item.latest}</h3>
 
       <a  target="_blank" rel="noopener noreferrer" href={item.appleMusic} className="relative overflow-hidden w-full max-h-80 rounded-sm">
       <Image

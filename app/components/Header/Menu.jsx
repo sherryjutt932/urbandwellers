@@ -2,15 +2,43 @@ import Link from "next/link";
 import React from "react";
 import { Navigationitems, Connectitems } from "@/app/constants/NavItems";
 import { FaArrowRightLong } from "react-icons/fa6";
+import Navitems from '@/app/constants/NavItems';
 
-export default function Menu() {
+export default function Menu({handleMenuToggle}) {
   return (
-    <div className="bg-light text-dark w-full h-[460px] absolute top-[90px] left-0 flex z-50">
+    <div
+
+className="bg-light text-dark w-full h-[calc(100vh-71px)] overflow-y-scroll sm:overflow-y-hidden sm:h-[460px] absolute sm:top-[90px] top-[70px] left-0 flex flex-col sm:flex-row z-50">
+      <div className="border-r border-borderClrL flex-1 flex sm:hidden flex-col">
+        <p className="uppercase  border-y border-borderClrL px-2 h-7 flex items-center flex-shrink-0 leading-none text-xs font-bold">
+          pages
+        </p>
+        <ul className="flex-grow flex flex-col py-4">
+          {Navitems.map((item, index) => (
+            <li
+              key={index}
+              className={`group hover:bg-[#00000010] hover:text-[#878080]`}
+            >
+              <Link
+                href={item.url}
+                className={`flex items-center w-full px-6 py-1 text-2xl capitalize font-medium`}
+              >
+                <span>{item.title}</span>
+                <span
+                  className={`ml-4 text-base opacity-0 group-hover:opacity-100`}
+                >
+                  <FaArrowRightLong />
+                </span>
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </div>
       <div className="border-r border-borderClrL flex-1 flex flex-col">
-        <p className="uppercase  border-b border-borderClrL px-2 h-7 flex items-center flex-shrink-0 leading-none text-xs font-bold">
+        <p className="uppercase  border-y border-borderClrL px-2 h-7 flex items-center flex-shrink-0 leading-none text-xs font-bold">
           navigation
         </p>
-        <ul className="flex-grow flex flex-col">
+        <ul className="flex-grow flex flex-col py-4 sm:py-0">
           {Navigationitems.map((item, index) => (
             <li
               key={index}
@@ -20,8 +48,8 @@ export default function Menu() {
             >
               <Link
                 href={item.url}
-                className={`flex items-center w-full px-6 text-2xl capitalize font-medium ${
-                  index === Navigationitems.length - 1 ? "pb-4 pt-1" : " py-1"
+                className={`flex items-center w-full px-6 text-xl sm:text-2xl capitalize font-medium ${
+                  index === Navigationitems.length - 1 ? "sm:pb-4 sm:pt-1" : " sm:py-1"
                 }`}
               >
                 <span>{item.title}</span>
@@ -36,15 +64,15 @@ export default function Menu() {
         </ul>
       </div>
       <div className="border-r border-borderClrL flex-1 flex flex-col">
-        <p className="uppercase border-b border-borderClrL px-2 h-7 flex items-center flex-shrink-0 leading-none text-xs font-bold">
+        <p className="uppercase border-y border-borderClrL px-2 h-7 flex items-center flex-shrink-0 leading-none text-xs font-bold">
           Connect
         </p>
-        <ul className="flex-grow flex flex-col">
+        <ul className="flex-grow flex flex-col pt-4 sm:pt-o">
           {Connectitems.map((item, index) => (
             <li
               key={index}
               className={`hover:opacity-80 text-[#878080] ${
-                index === 0 ? "flex-grow flex items-end" : ""
+                index === 0 ? "flex-grow flex sm:items-end" : ""
               }`}
             >
               <Link
@@ -63,7 +91,7 @@ export default function Menu() {
         </div>
       </div>
       <div className="border-r border-borderClrL flex-1 flex flex-col font-medium leading-snug">
-        <p className="uppercase border-b border-borderClrL px-2 h-7 flex items-center flex-shrink-0 leading-none text-xs font-bold">
+        <p className="uppercase border-y border-borderClrL px-2 h-7 flex items-center flex-shrink-0 leading-none text-xs font-bold">
           NEWSLETTER
         </p>
         <p className="p-6 mb-5">
@@ -85,7 +113,7 @@ export default function Menu() {
         </button>
       </div>
       <div className="flex-1 flex flex-col font-medium leading-snug">
-        <p className="uppercase border-b border-borderClrL px-2 h-7 flex items-center flex-shrink-0 leading-none text-xs font-bold">
+        <p className="uppercase border-y border-borderClrL px-2 h-7 flex items-center flex-shrink-0 leading-none text-xs font-bold">
           LOGIN / REGISTER
         </p>
 

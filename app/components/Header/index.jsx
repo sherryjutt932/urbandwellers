@@ -27,18 +27,18 @@ export default function Header() {
   };
 
   return (
-    <div className={`h-[90px] container_center border-b border-borderClr text-lg relative`}>
-      <div className='container_center px-8 border-r  border-borderClr h-full'>
+    <div className={`h-[70px] sm:h-[90px] container_center border-b border-borderClr text-lg relative`}>
+      <div className='container_center px-4 sm:px-8 border-r  border-borderClr h-full'>
         <Link href='/' className='w-full py-2 h-full cursor-pointer'>
-          <Image className='w-auto h-full' src="/urbanlogo.png" width={300}  height={300}></Image>
+          <Image className='w-auto h-full object-cover' src="/urbanlogo.png" width={300}  height={300}></Image>
         </Link>
       </div>
       <ul
-        className={`${isSearchActive ? 'w-0 p-0' : 'w-fit px-8'} transition_theme overflow-hidden flex h-full border-r border-borderClr`}
+        className={`${isSearchActive ? 'w-0 p-0' : 'w-fit px-4 sm:px-8'} transition_theme overflow-hidden hidden sm:flex h-full border-r border-borderClr`}
       >
           {Navitems.map((item, index) => (
         <li key={index} >
-            <Link href={item.url}  className={` ${isSearchActive ? 'opacity-0' : 'opacity-100'} border-[#faaf4a] h-full transition-all flex items-center hover:opacity-80 px-8 whitespace-nowrap ${
+            <Link href={item.url}  className={` ${isSearchActive ? 'opacity-0' : 'opacity-100'} border-[#faaf4a] h-full transition-all flex items-center hover:opacity-80 px-4 sm:px-8 whitespace-nowrap ${
                   pathname === item.url ? 'text-[#faaf4a] border-t-4 ' : 'text-white'
                 }`}>
               {item.title}
@@ -46,27 +46,27 @@ export default function Header() {
         </li>
           ))}
       </ul>
-      <div className='flex-grow flex items-center px-8 border-r h-full border-borderClr'>
-        <span className={` ${isSearchActive ? 'opacity-100' : 'opacity-0'} transition_theme ml-6 text-2xl`}>
+      <div className='flex-grow flex items-center px-4 sm:px-8 border-r h-full border-borderClr'>
+        <span className={` ${isSearchActive ? 'sm:opacity-100' : 'sm:opacity-0'} transition_theme sm:ml-6 text-2xl`}>
         <RiSearchLine />
 
         </span>
         <input
           type='text'
-          className='h-[90px] w-full px-8 bg-transparent outline-none text-white placeholder-placeholderClr'
+          className='h-[90px] w-full px-4 sm:px-8 bg-transparent outline-none text-white placeholder-placeholderClr'
           placeholder='Search'
           onFocus={handleSearchFocus}
           onBlur={handleSearchBlur}
         />
       </div>
-      <div className='container_center px-8 h-full text-2xl'>
+      <div className='container_center px-4 sm:px-8 h-full text-2xl'>
         <button  
         onClick={handleMenuToggle}
         className='cursor-pointer'>
           {isMenuOpen? <IoClose />: <VscMenu /> }
         </button>
       </div>
-      {isMenuOpen && <Menu/>}
+      {isMenuOpen && <Menu handleMenuToggle={handleMenuToggle}/>}
     </div>
   );
 }
