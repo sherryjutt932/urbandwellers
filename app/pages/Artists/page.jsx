@@ -5,7 +5,7 @@ import ArtistsFilter from "@/app/constants/ArtistsFilter";
 
 export default function Artists() {
   return (
-    <div className='flex flex-nowrap w-fit h-full pt-10'>
+    <div className='flex flex-nowrap w-fit h-full pt-10 sm:pt-0'>
         <Filter item={ArtistsFilter} name="artists"/>
       {
         ArtistsList.map((item, index)=>{
