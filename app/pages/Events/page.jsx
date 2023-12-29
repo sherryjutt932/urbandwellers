@@ -5,7 +5,7 @@ import EventsFilter from "@/app/constants/EventsFilter";
 
 export default function Events() {
   return (
-    <div className='flex flex-nowrap w-fit h-full pt-10'>
+    <div className='flex flex-nowrap w-fit h-full sm:pt-10'>
         <Filter item={EventsFilter} name="events"/>
       {
         EventsList.map((item, index)=>{
