@@ -57,7 +57,8 @@ export default function Card({ item }) {
               src={item.img}
               width={1000}
               height={1000}
-            ></Image>
+              alt="event image"
+            />
             {isLoading && (
             <div className="absolute top-0 left-0 h-full w-full skeleton"></div>)}
           </div>

@@ -43,7 +43,8 @@ export default function MerchCard({ item }) {
               src={item.img}
               width={1000}
               height={1000}
-            ></Image>
+              alt="merch image"
+            />
             {isLoading && (
             <div className="absolute top-0 left-0 h-full w-full skeleton"></div>)}
           </div>
