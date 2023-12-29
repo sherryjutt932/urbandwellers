@@ -68,7 +68,7 @@ export default function Card({ item }) {
             width={1000}
             height={1000}
               alt="artist image"
-          ></Image>
+          />
           {isLoading && (
           <div className="absolute top-0 left-0 h-full w-full skeleton"></div>)}
         </a>
