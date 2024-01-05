@@ -15,7 +15,7 @@ export default function Loading() {
 
   return isVisible ? (
     <div className="fixed w-screen h-screen bg-black top-0 left-0 z-[100] container_center">
-      <img src="/loading.gif" alt="" />
+      <img src="/SVKl.gif" alt="loading" className='w-24' />
     </div>
   ) : null;
 }

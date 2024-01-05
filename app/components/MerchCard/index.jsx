@@ -8,13 +8,13 @@ export default function MerchCard({ item }) {
   const [isLoading, setIsLoading] = useState(true);
   return (
     <Link href={item.url}>
-    <div className="w-[90vw] sm:w-[25vw] sm:min-w-[400px] hover:bg-[#181514] transition-all h-full border-r border-borderClr flex flex-col">
+    <div className="min-h-[80vh] sm:min-h-[100px] w-[100vw] border-b sm:w-[25vw] sm:min-w-[400px] hover:bg-[#181514] transition-all h-fit sm:h-full border-r border-borderClr flex sm:flex-col">
       {/* Heading */}
-      <p className="uppercase border-b border-light bg-light text-dark px-2 h-7 flex items-center flex-shrink-0 leading-none text-xs font-bold">
+      <p className=" vText uppercase border-b border-light bg-light text-dark py-6 sm:py-0 sm:px-2 sm:h-7 w-7 sm:w-full flex items-center flex-shrink-0 leading-none text-xs font-bold">
         {item.category}
       </p>
 
-      <div className="px-10 pb-10 gap-4 flex-grow justify-end flex flex-col overflow-hidden">
+      <div className="px-6 sm:px-10 pb-10 gap-4 flex-grow justify-end flex flex-col overflow-hidden">
         {/* Divider */}
         <hr className="border-t border-borderClr w-full" />
 
@@ -43,6 +43,7 @@ export default function MerchCard({ item }) {
               src={item.img}
               width={1000}
               height={1000}
+              alt="image"
             ></Image>
             {isLoading && (
             <div className="absolute top-0 left-0 h-full w-full skeleton"></div>)}

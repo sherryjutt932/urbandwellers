@@ -10,11 +10,33 @@
 
 html{
   background-color: #0E0E0E;
+  scroll-behavior: smooth;
 }
 
 main{
   background-color: #0E0E0E;
   overflow-x: scroll;
+}
+
+.colText{
+  columns: 25vw;
+  column-flow: auto;
+}
+
+@media (max-width: 640px) {
+  .vText{
+    writing-mode: vertical-rl;
+  }
+
+  .colText{
+    columns: 100vw;
+    column-flow: unset;
+  }
+
+  main{
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
 }
 
 body{
@@ -107,4 +129,14 @@ main::-webkit-scrollbar-thumb:hover {
 /* Handle on hover */
 .custom_scroller::-webkit-scrollbar-thumb:hover {
   background: #00000060;
+}
+
+
+
+
+/* width */
+.no_scroller::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+  display: none;
 }

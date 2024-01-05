@@ -3,7 +3,7 @@ import MerchCard from "@/app/components/MerchCard";
 
 export default function Merch() {
   return (
-    <div className='flex flex-nowrap w-fit h-full'>
+    <div className='flex flex-nowrap flex-col sm:flex-row w-full h-fit sm:w-fit sm:h-full'>
       {
         Merchs.map((item, index)=>{
           return(

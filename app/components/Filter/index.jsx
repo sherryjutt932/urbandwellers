@@ -13,7 +13,7 @@ export default function Filter({ item, name }) {
         {name}
       </p>
 
-      <div className={`sm:m-3 top-[70px] sm:top-auto sm:h-[calc(100vh-3rem-91px-24px)] w-screen sm:w-[calc(350px-3rem)] flex flex-col transition_theme  fixed sm:left-3 z-40 ${!isOpen? 'h-0':'h-[calc(100vh-71px-24px)]'}`}>
+      <div className={`sm:m-3 top-[69px] sm:top-auto sm:h-[calc(100vh-3rem-91px-24px)] w-screen sm:w-[calc(350px-3rem)] flex flex-col transition_theme  fixed sm:left-3 z-40 ${!isOpen? 'h-0':'h-[calc(100vh-71px)]'}`}>
         <button
           onClick={() => {
             setIsOpen(!isOpen);
@@ -42,7 +42,9 @@ export default function Filter({ item, name }) {
                 {link.dropdowns &&
                   link.dropdowns.map((dropdown, ind) => {
                     return (
-                      <Link key={ind} href={dropdown.url} className="pl-8 py-4 hover:bg-[#181514]">
+                      <Link onClick={() => {
+                        setIsOpen(!isOpen);
+                      }} key={ind} href={dropdown.url} className="pl-8 py-4 hover:bg-[#181514]">
                         {dropdown.title}
                       </Link>
                     );

@@ -20,6 +20,7 @@ className="bg-light text-dark w-full h-[calc(100vh-71px)] overflow-y-scroll sm:o
               className={`group hover:bg-[#00000010] hover:text-[#878080]`}
             >
               <Link
+              onClick={handleMenuToggle}
                 href={item.url}
                 className={`flex items-center w-full px-6 py-1 text-2xl capitalize font-medium`}
               >
@@ -48,6 +49,7 @@ className="bg-light text-dark w-full h-[calc(100vh-71px)] overflow-y-scroll sm:o
             >
               <Link
                 href={item.url}
+                onClick={handleMenuToggle}
                 className={`flex items-center w-full px-6 text-xl sm:text-2xl capitalize font-medium ${
                   index === Navigationitems.length - 1 ? "sm:pb-4 sm:pt-1" : " sm:py-1"
                 }`}
@@ -77,6 +79,7 @@ className="bg-light text-dark w-full h-[calc(100vh-71px)] overflow-y-scroll sm:o
             >
               <Link
                 href={item.url}
+                onClick={handleMenuToggle}
                 className={`flex items-center w-full px-6 text-xl leading-tight capitalize font-medium `}
               >
                 <span>{item.title}</span>
@@ -85,7 +88,7 @@ className="bg-light text-dark w-full h-[calc(100vh-71px)] overflow-y-scroll sm:o
           ))}
         </ul>
         <div className="`w-full p-6 text-sm leading-tight capitalize font-normal underline text-[#878080]">
-          <Link href="/pages/terms" className={` hover:opacity-80`}>
+          <Link onClick={handleMenuToggle} href="/pages/terms" className={` hover:opacity-80`}>
             terms & privacy
           </Link>
         </div>
@@ -118,10 +121,10 @@ className="bg-light text-dark w-full h-[calc(100vh-71px)] overflow-y-scroll sm:o
         </p>
 
         <div className="`w-full p-6 flex flex-col gap-2 font-normal underline text-[#878080]">
-          <Link href="/pages/terms" className={` hover:opacity-80`}>
+          <Link onClick={handleMenuToggle} href="/pages/terms" className={` hover:opacity-80`}>
             Create an account
           </Link>
-          <Link href="/pages/terms" className={` hover:opacity-80`}>
+          <Link onClick={handleMenuToggle} href="/pages/terms" className={` hover:opacity-80`}>
             Forgot your password?
           </Link>
         </div>

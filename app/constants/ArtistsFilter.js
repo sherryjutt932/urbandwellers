@@ -1,63 +1,35 @@
 const ArtistsFilter = [
     {
         title:"Links",
-        url:"/pages/Artists/Links"
+        url:"/pages/Artists"
     },
     {
         title:"Dj portal",
-        url:"/pages/Artists/Dj",
-        dropdowns:[
-            {
-                title:"New York",
-                url:"/pages/Artists/Dj/NewYork"
-            },
-            {
-                title:"Paris",
-                url:"/pages/Artists/Dj/Paris"
-            },
-        ]
+        url:"/pages/Dj",
     },
     {
         title:"Music",
-        url:"/pages/Artists/Music",
-        dropdowns:[
-            {
-                title:"Pop",
-                url:"/pages/Artists/Music/Pop"
-            },
-            {
-                title:"Classic",
-                url:"/pages/Artists/Music/Classic"
-            },
-        ]
+        url:"/pages/Music",
+        
     },
     {
         title:"Licensing",
-        url:"/pages/Artists/Licensing",
-        dropdowns:[
-            {
-                title:"Records",
-                url:"/pages/Artists/Licensing/Records"
-            },
-            {
-                title:"Labels",
-                url:"/pages/Artists/Licensing/Labels"
-            },
-        ]
+        url:"/pages/Licensing",
+       
     },
     {
         title:"Register",
-        url:"/pages/Artists/Register",
-        dropdowns:[
-            {
-                title:"New Song",
-                url:"/pages/Artists/Register/Song"
-            },
-            {
-                title:"New Label",
-                url:"/pages/Artists/Register/Label"
-            },
-        ]
+        url:"/pages/Register",
+        // dropdowns:[
+        //     {
+        //         title:"New Song",
+        //         url:"/pages/Artists/Register/Song"
+        //     },
+        //     {
+        //         title:"New Label",
+        //         url:"/pages/Artists/Register/Label"
+        //     },
+        // ]
     },
     {
         title:"Contact",

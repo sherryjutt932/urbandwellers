@@ -4,16 +4,22 @@ import Link from "next/link";
 import React, { useState } from "react";
 import { GoArrowUpRight } from "react-icons/go";
 
+// jazzcah
+// 03085570304
+
 export default function Card({ item }) {
   const [isLoading, setIsLoading] = useState(true);
   return (
-    <div className="w-[90vw] sm:w-[30vw] sm:min-w-[500px]  hover:bg-[#181514] transition-all h-full border-r border-borderClr flex flex-col">
+    <Link  
+    href="/pages/Artists/[id]" as={`/pages/Artists/${item.id}`}
+    >
+    <div className="min-h-[80vh] sm:min-h-[100px] w-[100vw] border-b sm:w-[30vw] sm:min-w-[500px] hover:bg-[#181514] transition-all h-fit sm:h-full border-r border-borderClr flex sm:flex-col">
     {/* Heading */}
-    <p className="uppercase border-b border-light bg-light text-dark px-2 h-7 flex items-center flex-shrink-0 leading-none text-xs font-bold">
+    <p className=" vText uppercase border-b border-light bg-light text-dark py-6 sm:py-0 sm:px-2 sm:h-7 w-7 sm:w-full flex items-center flex-shrink-0 leading-none text-xs font-bold">
       {item.category}
     </p>
 
-    <div className="px-10 pb-10 gap-4 flex-grow justify-end flex flex-col overflow-hidden">
+    <div className="px-6 sm:px-10 pb-10 gap-4 flex-grow justify-end flex flex-col overflow-hidden">
       {/* Divider */}
       <hr className="border-t border-borderClr w-full" />
 
@@ -22,26 +28,20 @@ export default function Card({ item }) {
 
       {/* Link */}
       <div className="flex gap-6">
-      <a target="_blank" rel="noopener noreferrer" href={item.spotify}>
       <div className="flex gap-3 items-center font-semibold">
         <span className="text-xl bg-light text-dark block">
           <GoArrowUpRight />
         </span>
         <p className="array">Spotify</p>
       </div>
-        </a>
       {/* Link */}
-        <a  target="_blank" rel="noopener noreferrer" href={item.appleMusic}>
       <div className="flex gap-3 items-center font-semibold">
         <span className="text-xl bg-light text-dark block">
           <GoArrowUpRight />
         </span>
         <p className="array">Apple Music</p>
       </div>
-        </a>
       </div>
-
-
 
         <div className="mt-4 border-borderClr">
       </div>
@@ -60,19 +60,21 @@ export default function Card({ item }) {
       </div>
       <h3 className="text-base sm:text-2xl font-medium leading-tight" >{item.latest}</h3>
 
-      <a  target="_blank" rel="noopener noreferrer" href={item.appleMusic} className="relative overflow-hidden w-full max-h-80 rounded-sm">
+      <div  className="relative overflow-hidden w-full max-h-80 rounded-sm">
       <Image
             onLoad={() => setIsLoading(false)}
             className="w-full block hover:scale-110 transition_theme"
             src={item.latestimg}
             width={1000}
             height={1000}
+            alt="image"
           ></Image>
           {isLoading && (
           <div className="absolute top-0 left-0 h-full w-full skeleton"></div>)}
-        </a>
+        </div>
 
     </div>
   </div>
+  </Link>
   );
 }

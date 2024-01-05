@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <Loading />
         <Header />
-        <main className="h-[calc(100vh-71px)] sm:h-[calc(100vh-91px)] overflow-y-hidden">
+        <main className="h-[calc(100vh-71px)] sm:h-[calc(100vh-91px)] sm:overflow-y-hidden overflow-x-hidden sm:overflow-x-scroll">
           {children}
         </main>
       </body>

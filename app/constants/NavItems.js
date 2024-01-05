@@ -17,39 +17,32 @@ const Navitems = [
     }
 ]
 
+
 export const Navigationitems = [
     {
-        title:"contact",
-        url:"/pages/contact"
+        title:"Charity",
+        url:" https://www.threesquare.org/#"
     },
     {
-        title:"support",
-        url:"/pages/support"
+        title:"Sponsorship",
+        url:"/pages/sponsorship"
     },
     {
-        title:"Downloads",
-        url:"/pages/Downloads"
+        title:"Crew",
+        url:"/pages/crew"
+    },
+    {
+        title:"Videos",
+        url:"/pages/videos"
     },
     {
         title:"Register",
-        url:"/pages/Register"
+        url:"/pages/register"
     },
     {
-        title:"Dealers",
-        url:"/pages/Dealers"
+        title:"Contact",
+        url:"/pages/contact"
     },
-    {
-        title:"Careers",
-        url:"/pages/Careers"
-    },
-    {
-        title:"Vist Moog",
-        url:"/pages/Moog"
-    },
-    {
-        title:"Forum",
-        url:"/pages/Forum"
-    }
 ]
 
 export const Connectitems = [
