@@ -132,8 +132,8 @@ const ArtistPage = () => {
 
           <video
             controls
-            width="600"
-            height="400"
+            width="1200"
+            height="600"
             className="sm:w-[70%] h-full border-r border-borderClr"
           >
             <source src={item.video.src} type="video/mp4" />
