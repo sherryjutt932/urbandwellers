@@ -54,6 +54,14 @@ const ArtistPage = () => {
                 <p className="array">Apple Music</p>
               </div>
             </a>
+            <a target="_blank" rel="noopener noreferrer" href={item.latesturl}>
+              <div className="flex gap-3 items-center font-semibold">
+                <span className="text-xl bg-light text-dark block">
+                  <GoArrowUpRight />
+                </span>
+                <p className="array">Latest</p>
+              </div>
+            </a>
           </div>
 
           <div className="block sm:hidden sm:w-[60%] px-4 sm:p-10 text-[#878080]">
