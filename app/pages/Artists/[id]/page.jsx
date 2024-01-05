@@ -161,7 +161,7 @@ const ArtistPage = () => {
         <div className="w-full sm:w-[600px] h-full flex relative border-r border-b border-borderClr pb-20 sm:pb-0">
           <HeadingTag tag={"Specs"} />
 
-          <div className="flex flex-col sm:m-10 m-7 ml-12 sm:ml-0">
+          <div className="flex flex-col sm:m-10 m-7 ml-12 sm:ml-10">
             {item.specs.slice(0, 7).map((spec, index) => {
               return (
                 <div key={index} className="py-4 border-b border-borderClr">
