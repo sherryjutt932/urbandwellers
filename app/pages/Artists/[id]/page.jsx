@@ -13,6 +13,7 @@ import Gallery from "../../../components/Gallery";
 const ArtistPage = () => {
   const { id } = useParams();
   const item = ArtistsList.find((artist) => artist.id === id);
+  const [isLoading, setIsLoading] = useState(true);
   const filteredItems = ArtistsList.filter((artist) => artist.id !== id).slice(
     0,
     4
@@ -289,12 +290,16 @@ const ArtistPage = () => {
 
                   <div className="relative overflow-hidden w-full max-h-48 rounded-sm">
                     <Image
+                      onLoad={() => setIsLoading(false)}
                       className="w-full block hover:scale-110 transition_theme"
                       src={relatedItem.latestimg}
                       width={1000}
                       height={1000}
                       alt="image"
                     ></Image>
+                    {isLoading && (
+                    <div className="absolute top-0 left-0 h-full w-full skeleton"></div>)}
+
                   </div>
                 </div>
               </div>
