@@ -1,6 +1,6 @@
 "use client";
 import { useParams } from "next/navigation";
-import ArtistsList from "@/app/constants/Artists";
+import ArtistsList from "../../../constants/Artists";
 import { GoArrowUpRight } from "react-icons/go";
 import React, { useState } from "react";
 import Image from "next/image";
@@ -27,16 +27,12 @@ const ArtistPage = () => {
 
   return (
     <div className="flex flex-nowrap flex-col sm:flex-row w-full h-fit sm:w-fit sm:h-full">
-
-
       <div className="w-[100vw] pl-7 sm:pl-0 sm:w-[50vw] sm:min-w-[500px] relative hover:bg-[#181514] transition-all h-full border-r border-b border-borderClr flex flex-col pb-8 sm:pb-0">
         <div className="sm:hidden">
-              <HeadingTag tag={""} />
-              </div>
+          <HeadingTag tag={""} />
+        </div>
         <div className=" gap-4 flex-grow justify-end flex flex-col-reverse sm:flex-col overflow-hidden ">
-
           <div className="flex gap-2 sm:gap-6 sm:ml-auto sm:mb-auto sm:p-10 px-4 flex-grow flex-col w-1/2">
-            
             <a target="_blank" rel="noopener noreferrer" href={item.spotify}>
               <div className="flex gap-3 items-center font-semibold">
                 <span className="text-xl bg-light text-dark block">
@@ -54,25 +50,16 @@ const ArtistPage = () => {
                 <p className="array">Apple Music</p>
               </div>
             </a>
-            <a target="_blank" rel="noopener noreferrer" href={item.latesturl}>
-              <div className="flex gap-3 items-center font-semibold">
-                <span className="text-xl bg-light text-dark block">
-                  <GoArrowUpRight />
-                </span>
-                <p className="array">Latest</p>
-              </div>
-            </a>
           </div>
 
           <div className="block sm:hidden sm:w-[60%] px-4 sm:p-10 text-[#878080]">
-              {item.bio}
-            </div>
+            {item.bio}
+          </div>
 
           {/* Detail */}
           <h1 className="mx-4 sm:mx-10 text-3xl sm:text-8xl font-medium leading-tight">
             {item.title}
           </h1>
-          
 
           <div className="sm:mt-4 flex flex-col sm:flex-row items-end">
             <button className="text-black px-6 py-3 flex justify-between uppercase items-center bg-[#FAAF4A] hover:bg-[#F7A434] transition_theme w-full sm:w-[40%]">
@@ -90,40 +77,37 @@ const ArtistPage = () => {
       </div>
 
       {item.gallery && <Gallery data={item.gallery} />}
-      {item.gallery &&
-        item.gallery.map((galleryItem, index) => {
-          return (
-            <div
-              key={index}
-              className="w-fit min-w-[90vw] pl-7 sm:pl-0 h-full border-r border-borderClr flex flex-nowrap flex-col  sm:flex-row overflow-hidden relative"
-            >
-              
-              {galleryItem.label ? <HeadingTag tag={galleryItem.label} /> : <div className="sm:hidden">
-              <HeadingTag tag={""} />
-              </div>
-              }
+      <div className="sm:w-fit min-w-[90vw] pl-7 sm:pl-0 h-full border-r border-borderClr flex flex-nowrap flex-col  sm:flex-row overflow-hidden relative">
+        <HeadingTag tag={"latest"} />
 
-              <div className="sm:w-[30vw] max-w-[20ch] m-4 sm:m-10 sm:text-3xl text-2xl font-medium leading-tight pb-12">
-                {galleryItem.detail}
-              </div>
-              <Image
-                className={`w-full h-full object-cover block border-y border-borderClr p-4 sm:p-0`}
-                src={galleryItem.product}
-                width={1000}
-                height={1000}
-                alt="image"
-              />
+        <div className="m-4 sm:m-10 ">
+          <div className="sm:w-[30vw] max-w-[20ch] sm:text-3xl text-2xl font-medium leading-tight pb-4">
+            {item.latest}
+          </div>
+          <a target="_blank" rel="noopener noreferrer" href={item.latesturl}>
+            <div className="flex gap-3 items-center font-semibold">
+              <span className="text-xl bg-light text-dark block">
+                <GoArrowUpRight />
+              </span>
+              <p className="array">View</p>
             </div>
-          );
-        })}
+          </a>
+        </div>
+
+        <Image
+          className={`w-full h-full  overflow-hidden object-cover block border-y border-borderClr p-4 sm:p-0`}
+          src={item.latestimg}
+          width={1000}
+          height={1000}
+          alt="image"
+        />
+      </div>
 
       {item.blog && (
         <div className="w-full sm:w-[60vw] h-full relative border-r border-borderClr">
           {item.blogLabel && <HeadingTag tag={item.blogLabel} />}
 
-          <div
-            className="colText h-full w-full p-6 pl-12 sm:p-10 sm:pl-10 gap-6 no_scroller overflow-auto"
-          >
+          <div className="colText h-full w-full p-6 pl-12 sm:p-10 sm:pl-10 gap-6 no_scroller overflow-auto">
             {item.blog.map((blogItem, index) => {
               return (
                 <p className=" pb-6 text-base text-[#878080]" key={index}>
@@ -191,20 +175,21 @@ const ArtistPage = () => {
                 : "bg-[#fff] hover:bg-[#888] text-black"
             }`}
           >
-             {isSpecList ?
+            {isSpecList ? (
               <>
-              <span>close</span>
-              <span className={`text-base`}>
-                <FaMinus />
-              </span>
-              </> : <>
-              <span>full list</span>
-              <span className={`text-base`}>
-                <FaPlus />
-              </span>
-              </>}
-
-           
+                <span>close</span>
+                <span className={`text-base`}>
+                  <FaMinus />
+                </span>
+              </>
+            ) : (
+              <>
+                <span>full list</span>
+                <span className={`text-base`}>
+                  <FaPlus />
+                </span>
+              </>
+            )}
           </button>
         </div>
       )}
@@ -257,64 +242,71 @@ const ArtistPage = () => {
           </div>
         </div>
       )}
-      <div className="flex flex-nowrap flex-col sm:flex-row w-full h-fit sm:w-fit sm:h-full relative">
-        <HeadingTag tag={"related items"} />
-        {filteredItems.map((relatedItem, index) => {
-          return (
-            <Link
-              key={index}
-              href="/pages/Artists/[id]"
-              as={`/pages/Artists/${relatedItem.id}`}
-            >
-              <div className="w-[100vw] sm:w-[400px]  hover:bg-[#181514] transition-all h-full border-r border-borderClr flex flex-col">
-                <div className="pl-16 sm:pl-10 px-10 pb-10 gap-4 flex-grow justify-end flex flex-col overflow-hidden">
-                  {/* Divider */}
-                  <hr className="sm:border-t border-borderClr w-full" />
 
-                  <div className="mt-4 border-borderClr"></div>
+      {filteredItems.length > 0 && (
+        <div className="flex flex-nowrap flex-col sm:flex-row w-full h-fit sm:w-fit sm:h-full relative">
+          <HeadingTag tag={"related items"} />
+          {filteredItems.map((relatedItem, index) => {
+            return (
+              <Link
+                key={index}
+                href="/pages/Artists/[id]"
+                as={`/pages/Artists/${relatedItem.id}`}
+              >
+                <div className="w-[100vw] sm:w-[400px]  hover:bg-[#181514] transition-all h-full border-r border-borderClr flex flex-col">
+                  <div className="pl-16 sm:pl-10 px-10 pb-10 gap-4 flex-grow justify-end flex flex-col overflow-hidden">
+                    {/* Divider */}
+                    <hr className="sm:border-t border-borderClr w-full" />
 
-                  <div className="flex flex-wrap gap-2">
-                    {relatedItem.tags.map((tag, i) => {
-                      return (
-                        <span
-                          key={i}
-                          className="py-1 px-2 uppercase text-xs font-semibold text-[#878080] border border-[#878080]"
-                        >
-                          {tag}
-                        </span>
-                      );
-                    })}
-                  </div>
-                  <h3 className="text-base sm:text-2xl font-medium leading-tight">
-                    {relatedItem.latest}
-                  </h3>
+                    <div className="mt-4 border-borderClr"></div>
 
-                  <div className="flex gap-3 items-center font-semibold">
-                    <span className="text-xl bg-light text-dark block">
-                      <GoArrowUpRight />
-                    </span>
-                    <p className="array">Learn more</p>
-                  </div>
+                    <div className="flex flex-wrap gap-2">
+                      {relatedItem.tags.map((tag, i) => {
+                        return (
+                          <span
+                            key={i}
+                            className="py-1 px-2 uppercase text-xs font-semibold text-[#878080] border border-[#878080]"
+                          >
+                            {tag}
+                          </span>
+                        );
+                      })}
+                    </div>
+                    <h3 className="text-base sm:text-2xl font-medium leading-tight">
+                      {relatedItem.latest}
+                    </h3>
 
-                  <div className="relative overflow-hidden w-full max-h-48 rounded-sm">
-                    <Image
-                      onLoad={() => setIsLoading(false)}
-                      className="w-full block hover:scale-110 transition_theme"
-                      src={relatedItem.latestimg}
-                      width={1000}
-                      height={1000}
-                      alt="image"
-                    ></Image>
-                    {isLoading && (
-                    <div className="absolute top-0 left-0 h-full w-full skeleton"></div>)}
+                    <div className="flex gap-3 items-center font-semibold">
+                      <span className="text-xl bg-light text-dark block">
+                        <GoArrowUpRight />
+                      </span>
+                      <p className="array">Learn more</p>
+                    </div>
 
+                    <div className="relative overflow-hidden w-full max-h-48 rounded-sm">
+                      <Image
+                        onLoad={() => setIsLoading(false)}
+                        className="w-full block hover:scale-110 transition_theme"
+                        src={
+                          relatedItem.pic
+                            ? relatedItem.pic
+                            : relatedItem.latestimg
+                        }
+                        width={1000}
+                        height={1000}
+                        alt="image"
+                      ></Image>
+                      {isLoading && (
+                        <div className="absolute top-0 left-0 h-full w-full skeleton"></div>
+                      )}
+                    </div>
                   </div>
                 </div>
-              </div>
-            </Link>
-          );
-        })}
-      </div>
+              </Link>
+            );
+          })}
+        </div>
+      )}
     </div>
   );
 };

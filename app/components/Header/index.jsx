@@ -1,6 +1,6 @@
 'use client';
 import React, { useState } from 'react';
-import Navitems from '@/app/constants/NavItems';
+import Navitems from '../../constants/NavItems';
 import Link from 'next/link';
 import { VscMenu } from 'react-icons/vsc';
 import { RiSearchLine } from "react-icons/ri";

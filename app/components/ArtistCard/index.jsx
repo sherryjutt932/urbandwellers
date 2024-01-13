@@ -64,7 +64,7 @@ export default function Card({ item }) {
       <Image
             onLoad={() => setIsLoading(false)}
             className="w-full block hover:scale-110 transition_theme"
-            src={item.latestimg}
+            src={item.pic? item.pic : item.latestimg}
             width={1000}
             height={1000}
             alt="image"

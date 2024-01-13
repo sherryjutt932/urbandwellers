@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { FaPlus, FaMinus } from "react-icons/fa6";
-import { DropdownComponent } from "@/app/components/Dropdown";
+import { DropdownComponent } from "../Dropdown";
 import Link from "next/link";
 
 export default function Filter({ item, name }) {

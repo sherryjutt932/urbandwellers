@@ -25,42 +25,42 @@ export const Navigationitems = [
     },
     {
         title:"Sponsorship",
-        url:"/pages/sponsorship"
-    },
-    {
-        title:"Crew",
-        url:"/pages/crew"
+        url:"/pages/Sponsorship"
     },
     {
         title:"Videos",
-        url:"/pages/videos"
+        url:"/pages/Videos"
     },
     {
         title:"Register",
-        url:"/pages/register"
+        url:"/pages/Register"
+    },
+    {
+        title:"Crew",
+        url:"/pages/Crew"
     },
     {
         title:"Contact",
-        url:"/pages/contact"
+        url:"/pages/Contact"
     },
 ]
 
 export const Connectitems = [
     {
         title:"facebook",
-        url:"https://www.facebook.com/"
+        url:"https://www.facebook.com/profile.php?id=61555682154997&mibextid=9R9pXO)"
     },
     {
         title:"instagram",
-        url:"https://www.instagram.com/"
+        url:"https://www.instagram.com/urbandwellersmusic"
     },
     {
         title:"twitter",
-        url:"https://www.twitter.com/"
+        url:"https://twitter.com/urbandwellers"
     },
     {
         title:"youtube",
-        url:"https://www.youtube.com/"
+        url:"https://www.youtube.com/urbandwellers"
     },
     {
         title:"soundcloud",
@@ -68,7 +68,7 @@ export const Connectitems = [
     },
     {
         title:"newsletter",
-        url:"https://www.newsletter.com/"
+        url:"http://www.urbandwellers.co/pages/News"
     },
    
 ]

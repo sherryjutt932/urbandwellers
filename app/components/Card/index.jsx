@@ -4,10 +4,10 @@ import Link from "next/link";
 import React, { useState } from "react";
 import { GoArrowUpRight } from "react-icons/go";
 
+
 export default function Card({ item }) {
   const [isLoading, setIsLoading] = useState(true);
   return (
-    <Link href={item.url}>
     <div className="min-h-[80vh] sm:min-h-[100px] w-[100vw] border-b sm:w-[30vw] sm:min-w-[500px] hover:bg-[#181514] transition-all h-fit sm:h-full border-r border-borderClr flex sm:flex-col">
       {/* Heading */}
       <p className="vText uppercase border-b border-light bg-light text-dark py-6 sm:py-0 sm:px-2 sm:h-7 w-7 sm:w-full flex items-center flex-shrink-0 leading-none text-xs font-bold">
@@ -34,7 +34,10 @@ export default function Card({ item }) {
 
         {/* Detail */}
         <h1 className="text-3xl sm:text-5xl  font-medium leading-tight">{item.title}</h1>
-        <p className="text-[#878080]">{item.detail}</p>
+        <p className="text-[#878080] line-clamp-2">
+          {item.detail}
+        </p>
+
 
         {/* Link */}
 
@@ -64,6 +67,5 @@ export default function Card({ item }) {
           </div>
       </div>
     </div>
-    </Link>
   );
 }

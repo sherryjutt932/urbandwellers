@@ -2,6 +2,7 @@ const Artists = [
   {
     id:"1",
     category: "artist",
+    timestamp: "2024-01-13T12:30:00Z",
     tags: ["latest"],
     title: "Great Dark Rift",
     bio: "Built to last a lifetime, each new Minimoog Model D delivers the revered quality, undefinable feel, and authentic sound of a pristine vintage Moog.",
@@ -130,8 +131,10 @@ const Artists = [
   {
     id:"2",
     category: "artist",
+    timestamp: "2024-01-4T12:30:00Z",
     tags: ["latest"],
     title: "L.V.X.",
+    pic:"/Artists/l.v.x.jpeg",
     bio: "Built to last a lifetime, each new Minimoog Model D delivers the revered quality, undefinable feel, and authentic sound of a pristine vintage Moog.",
     appleMusic: "https://music.apple.com/us/artist/l-v-x/1715770372",
     spotify: "https://open.spotify.com/artist/6HIyn0LbMePgzEeJOJ8lcI",
@@ -140,17 +143,14 @@ const Artists = [
     latesturl:
       "https://music.apple.com/us/album/hustler-anthem-single/1720618599",
       gallery: [
-        { product: "/Artists/product1.jpg",
+        { product: "/Artists/l.v.x2.jpeg",
         detail: "The archetype of a synthesizer"
        },
-        { product: "/Artists/product2.jpg",
+        { product: "/Artists/l.v.x3.png",
         detail: "Placing the utmost importance on high-quality materials, all components are carefully sourced and crafted to capture the indescribable feeling of the original Minimoog Model D.",
         label:"ATTENTION TO DETAIL"
        },
-        { product: "/Artists/product3.jpg",
-        detail: "This reissue features the identical sound engine and signal path of the 1970s Model D plus a series of popular modifications.",
-        label: "PERFORMANCE MODIFICATIONS",
-      }
+       
       ],
   
       blogLabel: "THE MINIMOOG MODEL D",
@@ -256,8 +256,10 @@ const Artists = [
   {
     id:"3",
     category: "artist",
+    timestamp: "2023-08-13T12:30:00Z",
     tags: ["latest"],
     title: "Eureka Gold",
+    pic:"/Artists/Eureka Gold.jpeg",
     bio: "Built to last a lifetime, each new Minimoog Model D delivers the revered quality, undefinable feel, and authentic sound of a pristine vintage Moog.",
     appleMusic: "https://music.apple.com/us/artist/eureka-gold/1701518642",
     spotify: "https://open.spotify.com/artist/0wieKdXkP41FrdvNC9eN4J",
@@ -266,17 +268,13 @@ const Artists = [
     latesturl:
       "https://music.apple.com/us/album/jump-up-instrumental-single/1715659282",
       gallery: [
-        { product: "/Artists/product1.jpg",
+        { product: "/Artists/Eureka Gold3.jpeg",
         detail: "The archetype of a synthesizer"
        },
-        { product: "/Artists/product2.jpg",
+        { product: "/Artists/Eureka Gold2.jpeg",
         detail: "Placing the utmost importance on high-quality materials, all components are carefully sourced and crafted to capture the indescribable feeling of the original Minimoog Model D.",
         label:"ATTENTION TO DETAIL"
-       },
-        { product: "/Artists/product3.jpg",
-        detail: "This reissue features the identical sound engine and signal path of the 1970s Model D plus a series of popular modifications.",
-        label: "PERFORMANCE MODIFICATIONS",
-      }
+       }
       ],
   
       blogLabel: "THE MINIMOOG MODEL D",
@@ -382,8 +380,10 @@ const Artists = [
   {
     id:"4",
     category: "artist",
+    timestamp: "2023-09-29T12:30:00Z",
     tags: ["latest"],
     title: "Systematic Drum Lords",
+    pic:"/Artists/Systematic Drum Lords.png",
     bio: "Built to last a lifetime, each new Minimoog Model D delivers the revered quality, undefinable feel, and authentic sound of a pristine vintage Moog.",
     appleMusic:
       "https://music.apple.com/us/artist/systematic-drum-lords/1672825691",
@@ -393,17 +393,14 @@ const Artists = [
     latesturl:
       "https://music.apple.com/us/album/goddess-of-love-instrumental-single/1714074549",
       gallery: [
-        { product: "/Artists/product1.jpg",
+        { product: "/Artists/Systematic Drum Lords2.png",
         detail: "The archetype of a synthesizer"
        },
-        { product: "/Artists/product2.jpg",
+        { product: "/Artists/Systematic Drum Lords3.png",
         detail: "Placing the utmost importance on high-quality materials, all components are carefully sourced and crafted to capture the indescribable feeling of the original Minimoog Model D.",
         label:"ATTENTION TO DETAIL"
        },
-        { product: "/Artists/product3.jpg",
-        detail: "This reissue features the identical sound engine and signal path of the 1970s Model D plus a series of popular modifications.",
-        label: "PERFORMANCE MODIFICATIONS",
-      }
+        
       ],
   
       blogLabel: "THE MINIMOOG MODEL D",
@@ -508,9 +505,11 @@ const Artists = [
   },
   {
     id:"5",
+    timestamp: "2024-01-12T12:30:00Z",
     category: "artist",
     tags: ["latest"],
     title: "THE ROYAL GONZALEZ",
+    pic:"/Artists/The Royal Gonzalez.png",
     bio: "Built to last a lifetime, each new Minimoog Model D delivers the revered quality, undefinable feel, and authentic sound of a pristine vintage Moog.",
     appleMusic:
       "https://music.apple.com/us/artist/the-royal-gonzalez/923520079",
@@ -521,14 +520,11 @@ const Artists = [
     latesturl:
       "https://music.apple.com/us/album/beso-con-humo-single-feat-afrika-bambaataa-single/1719433125",
       gallery: [
-        { product: "/Artists/product1.jpg",
-        detail: "The archetype of a synthesizer"
-       },
-        { product: "/Artists/product2.jpg",
+        { product: "/Artists/The Royal Gonzalez2.jpeg",
         detail: "Placing the utmost importance on high-quality materials, all components are carefully sourced and crafted to capture the indescribable feeling of the original Minimoog Model D.",
         label:"ATTENTION TO DETAIL"
        },
-        { product: "/Artists/product3.jpg",
+        { product: "/Artists/The Royal Gonzalez3.jpeg",
         detail: "This reissue features the identical sound engine and signal path of the 1970s Model D plus a series of popular modifications.",
         label: "PERFORMANCE MODIFICATIONS",
       }
@@ -636,6 +632,7 @@ const Artists = [
   },
   {
     id:"6",
+    timestamp: "2023-011-02T12:30:00Z",
     category: "artist",
     tags: ["latest"],
     title: "Lord 7even",
@@ -761,6 +758,7 @@ const Artists = [
   },
   {
     id:"7",
+    timestamp: "2023-12-22T12:30:00Z",
     category: "artist",
     tags: ["latest"],
     title: "X.O.C.O.",
@@ -887,9 +885,11 @@ const Artists = [
   },
   {
     id:"8",
+    timestamp: "2024-01-01T12:30:00Z",
     category: "artist",
     tags: ["latest"],
     title: "AFRIKA BAMBAATAA",
+    pic:"/Artists/AFRIKA BAMBAATAA.jpeg",
     bio: "Built to last a lifetime, each new Minimoog Model D delivers the revered quality, undefinable feel, and authentic sound of a pristine vintage Moog.",
     appleMusic: "https://music.apple.com/us/artist/afrika-bambaataa/28680984",
     spotify: "https://open.spotify.com/playlist/37i9dQZF1E4C9ViN68W5bd",
@@ -898,17 +898,13 @@ const Artists = [
     latesturl:
       "https://music.apple.com/us/album/conflict-single/1723078258",
       gallery: [
-        { product: "/Artists/product1.jpg",
+        { product: "/Artists/AFRIKA BAMBAATAA2.jpeg",
         detail: "The archetype of a synthesizer"
        },
-        { product: "/Artists/product2.jpg",
+        { product: "/Artists/AFRIKA BAMBAATAA3.jpeg",
         detail: "Placing the utmost importance on high-quality materials, all components are carefully sourced and crafted to capture the indescribable feeling of the original Minimoog Model D.",
         label:"ATTENTION TO DETAIL"
-       },
-        { product: "/Artists/product3.jpg",
-        detail: "This reissue features the identical sound engine and signal path of the 1970s Model D plus a series of popular modifications.",
-        label: "PERFORMANCE MODIFICATIONS",
-      }
+       }
       ],
   
       blogLabel: "THE MINIMOOG MODEL D",

@@ -1,7 +1,8 @@
-import NewsList from "@/app/constants/News";
-import Card from "@/app/components/Card";
-import Filter from "@/app/components/Filter";
-import NewsFilter from "@/app/constants/NewsFilter";
+import NewsList from "../../constants/News";
+import Card from "../../components/Card";
+import Filter from "../../components/Filter";
+import NewsFilter from "../../constants/NewsFilter";
+import Link from "next/link";
 
 export default function News() {
   return (
@@ -11,7 +12,11 @@ export default function News() {
       {
         NewsList.map((item, index)=>{
           return(
+            <Link  
+    href="/pages/News/[id]" as={`/pages/News/${item.id}`}
+    >
             <Card key={index} item={item} className='w-screen h-screen border border-borderClr' />
+            </Link>
           )
         })
       }

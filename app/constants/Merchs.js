@@ -1,6 +1,7 @@
 const Merch = [
     {
       category: "shirt",
+      timestamp: "2024-01-13T12:30:00Z",
       title: "After Life shirt",
       price: "$350.00",
       url: "https://urbandwellerlifestyle.myshopify.com/products/after-life-shirt",
@@ -10,6 +11,7 @@ const Merch = [
     {
       category: "bandana",
       title: "All-over print bandana",
+      timestamp: "2024-01-10T12:30:00Z",
       price: "$13.00",
       url: "https://urbandwellerlifestyle.myshopify.com/products/all-over-print-bandana",
       img: "/Merch/All-over print bandana.jpg",
@@ -17,6 +19,7 @@ const Merch = [
     },
     {
       category: "bandana",
+      timestamp: "2024-01-03T12:30:00Z",
       title: "All-over print bandana",
       price: "$15.00",
       url: "https://urbandwellerlifestyle.myshopify.com/products/all-over-print-bandana-1",
@@ -25,6 +28,7 @@ const Merch = [
     },
     {
       category: "bandana",
+      timestamp: "2024-01-01T12:30:00Z",
       title: "All-over print bandana",
       price: "$13.00",
       url: "https://urbandwellerlifestyle.myshopify.com/products/all-over-print-bandana-2",
@@ -33,6 +37,7 @@ const Merch = [
     },
     {
       category: "pillow",
+      timestamp: "2023-12-13T12:30:00Z",
       title: "Basic Pillow",
       price: "$22.00",
       url: "https://urbandwellerlifestyle.myshopify.com/products/basic-pillow",
@@ -41,6 +46,7 @@ const Merch = [
     },
     {
       category: "towel",
+      timestamp: "2023-12-23T12:30:00Z",
       title: "Beach Towel",
       price: "$32.03",
       url: "https://urbandwellerlifestyle.myshopify.com/products/basic-pillow",
@@ -49,6 +55,7 @@ const Merch = [
     },
     {
       category: "mug",
+      timestamp: "2023-11-23T12:30:00Z",
       title: "Black Glossy Mug",
       price: "$11.00",
       url: "https://urbandwellerlifestyle.myshopify.com/products/basic-pillow",
@@ -57,6 +64,7 @@ const Merch = [
     },
     {
       category: "bag",
+      timestamp: "2023-11-23T12:30:00Z",
       title: "Clutch Bag",
       price: "$27.83",
       url: "https://urbandwellerlifestyle.myshopify.com/products/clutch-bag",
@@ -66,6 +74,7 @@ const Merch = [
     {
       category: "bag",
       title: "Crossbody bag",
+      timestamp: "2023-11-23T12:30:00Z",
       price: "$39.00",
       url: "https://urbandwellerlifestyle.myshopify.com/products/crossbody-bag",
       img: "/Merch/Crossbody bag.jpg",
@@ -73,6 +82,7 @@ const Merch = [
     },
     {
       category: "cap",
+      timestamp: "2023-11-23T12:30:00Z",
       title: "GDR Knit Beanie",
       price: "$24.45",
       url: "https://urbandwellerlifestyle.myshopify.com/products/knit-beanie-1",
@@ -82,6 +92,7 @@ const Merch = [
     {
       category: "bag",
       title: "GDR Makeup Bag",
+      timestamp: "2023-11-23T12:30:00Z",
       price: "$19.90",
       url: "https://urbandwellerlifestyle.myshopify.com/products/gdr-makeup-bag",
       img: "/Merch/GDR Makeup Bag.jpg",
@@ -89,6 +100,7 @@ const Merch = [
     },
     {
       category: "poster",
+      timestamp: "2023-11-23T12:30:00Z",
       title: "GDR Premium Matte Vertical Posters",
       price: "$24.90",
       url: "https://urbandwellerlifestyle.myshopify.com/products/gdr-premium-matte-vertical-posters",
@@ -97,6 +109,7 @@ const Merch = [
     },
     {
       category: "tee",
+      timestamp: "2023-11-23T12:30:00Z",
       title: "Great Dark Rift T-shirt - Unisex",
       price: "$22.93",
       url: "https://urbandwellerlifestyle.myshopify.com/products/great-dark-rift-t-shirt-unisex",
@@ -105,6 +118,7 @@ const Merch = [
     },
     {
       category: "coin",
+      timestamp: "2023-11-23T12:30:00Z",
       title: "Hip Hop Culture Coin 1974 - 2014",
       price: "$45.00",
       url: "https://urbandwellerlifestyle.myshopify.com/products/hip-hop-coin",
@@ -113,6 +127,7 @@ const Merch = [
     },
     {
       category: "cap",
+      timestamp: "2023-11-23T12:30:00Z",
       title: "Knit Beanie",
       price: "$24.45",
       url: "https://urbandwellerlifestyle.myshopify.com/products/knit-beanie",
@@ -121,6 +136,7 @@ const Merch = [
     },
     {
       category: "pillow",
+      timestamp: "2023-11-23T12:30:00Z",
       title: "Premium Pillow",
       price: "$25.00",
       url: "https://urbandwellerlifestyle.myshopify.com/products/premium-pillow",
@@ -129,6 +145,7 @@ const Merch = [
     },
     {
       category: "rug",
+      timestamp: "2023-11-23T12:30:00Z",
       title: "Round Rug",
       price: "$111.93",
       url: "https://urbandwellerlifestyle.myshopify.com/products/round-rug",
@@ -137,6 +154,7 @@ const Merch = [
     },
     {
       category: "poster",
+      timestamp: "2023-11-23T12:30:00Z",
       title: "Satin Posters (210gsm)",
       price: "$22.13",
       url: "https://urbandwellerlifestyle.myshopify.com/products/satin-posters-210gsm",
@@ -145,6 +163,7 @@ const Merch = [
     },
     {
       category: "cap",
+      timestamp: "2023-11-23T12:30:00Z",
       title: "SDL systematic drum lords Knit Beanie",
       price: "$24.45",
       url: "https://urbandwellerlifestyle.myshopify.com/products/knit-beanie-2",
@@ -153,6 +172,7 @@ const Merch = [
     },
     {
       category: "tee",
+      timestamp: "2023-11-23T12:30:00Z",
       title: "SDL t shirt",
       price: "$35.00",
       url: "https://urbandwellerlifestyle.myshopify.com/products/sdl-t-shirt",
@@ -161,6 +181,7 @@ const Merch = [
     },
     {
       category: "shadow",
+      timestamp: "2023-11-23T12:30:00Z",
       title: "Systematic Drum Lords - Shadows",
       price: "$1.00",
       url: "https://urbandwellerlifestyle.myshopify.com/products/sdl-t-shirt",
@@ -169,6 +190,7 @@ const Merch = [
     },
     {
       category: "tee",
+      timestamp: "2023-11-23T12:30:00Z",
       title: "Systematic Drum Lords Unisex Jersey Long Sleeve Tee",
       price: "$43.22",
       url: "https://urbandwellerlifestyle.myshopify.com/products/sdl-t-shirt",
@@ -177,6 +199,7 @@ const Merch = [
     },
     {
       category: "tee",
+      timestamp: "2023-11-23T12:30:00Z",
       title: "Ultra Cotton Long Sleeve Tee",
       price: "$22.53",
       url: "https://urbandwellerlifestyle.myshopify.com/products/ultra-cotton-long-sleeve-tee",
@@ -185,6 +208,7 @@ const Merch = [
     },
     {
       category: "jacket",
+      timestamp: "2023-11-23T12:30:00Z",
       title: "Unisex Bomber Jacket",
       price: "$53.00",
       url: "https://urbandwellerlifestyle.myshopify.com/products/unisex-bomber-jacket",
@@ -193,6 +217,7 @@ const Merch = [
     },
     {
       category: "tee",
+      timestamp: "2023-11-23T12:30:00Z",
       title: "Unisex Jersey Long Sleeve Tee",
       price: "$29.90",
       url: "https://urbandwellerlifestyle.myshopify.com/products/unisex-bomber-jacket",
@@ -201,6 +226,7 @@ const Merch = [
     },
     {
       category: "tank",
+      timestamp: "2023-11-23T12:30:00Z",
       title: "Unisex Jersey Tank",
       price: "$22.18",
       url: "https://urbandwellerlifestyle.myshopify.com/products/unisex-bomber-jacket",
@@ -209,6 +235,7 @@ const Merch = [
     },
     {
       category: "pant",
+      timestamp: "2023-11-23T12:30:00Z",
       title: "Unisex track pants",
       price: "$52.00",
       url: "https://urbandwellerlifestyle.myshopify.com/products/unisex-track-pants",
@@ -218,6 +245,7 @@ const Merch = [
     },
     {
       category: "wallet",
+      timestamp: "2023-11-23T12:30:00Z",
       title: "Universal Zulu Nation Wallet",
       price: "$15.00",
       url: "https://urbandwellerlifestyle.myshopify.com/products/universal-zulu-nation-wallet",
@@ -227,6 +255,7 @@ const Merch = [
     },
     {
       category: "sticker",
+      timestamp: "2023-11-23T12:30:00Z",
       title: "Urban Dwellers reflective sticker",
       price: "$10.00",
       url: "https://urbandwellerlifestyle.myshopify.com/products/urban-dwellers-reflective-sticker",
@@ -236,6 +265,7 @@ const Merch = [
     },
     {
       category: "jersey",
+      timestamp: "2023-11-23T12:30:00Z",
       title: "Urban Dwellers Unisex Basketball Jersey (AOP)",
       price: "$32.33",
       url: "https://urbandwellerlifestyle.myshopify.com/products/urban-dwellers-unisex-basketball-jersey-aop",
@@ -245,6 +275,7 @@ const Merch = [
     },
     {
       category: "pin",
+      timestamp: "2023-11-23T12:30:00Z",
       title: "UZN pin",
       price: "$20.00",
       url: "https://urbandwellerlifestyle.myshopify.com/products/uzn-pin",

@@ -1,5 +1,5 @@
-import Merchs from "@/app/constants/Merchs";
-import MerchCard from "@/app/components/MerchCard";
+import Merchs from "../../constants/Merchs";
+import MerchCard from "../../components/MerchCard";
 
 export default function Merch() {
   return (

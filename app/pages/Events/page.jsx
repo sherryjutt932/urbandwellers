@@ -1,7 +1,8 @@
-import EventsList from "@/app/constants/Events";
-import Card from "@/app/components/Card";
-import Filter from "@/app/components/Filter";
-import EventsFilter from "@/app/constants/EventsFilter";
+import Card from "../../components/Card";
+import Filter from "../../components/Filter";
+import EventsFilter from "../../constants/EventsFilter";
+import Link from "next/link";
+import EventsList from "../../constants/Events";
 
 export default function Events() {
   return (
@@ -10,7 +11,11 @@ export default function Events() {
       {
         EventsList.map((item, index)=>{
           return(
+            <Link  
+    href="/pages/Events/[id]" as={`/pages/Events/${item.id}`}
+    >
             <Card key={index} item={item} className='w-screen h-screen border border-borderClr' />
+            </Link>
           )
         })
       }

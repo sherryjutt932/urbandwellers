@@ -1,7 +1,7 @@
-import ArtistsList from "@/app/constants/Artists";
-import ArtistCard from "@/app/components/ArtistCard";
-import Filter from "@/app/components/Filter";
-import ArtistsFilter from "@/app/constants/ArtistsFilter";
+import ArtistsList from "../../constants/Artists";
+import ArtistCard from "../../components/ArtistCard";
+import Filter from "../../components/Filter";
+import ArtistsFilter from "../../constants/ArtistsFilter";
 
 export default function Artists() {
   return (
