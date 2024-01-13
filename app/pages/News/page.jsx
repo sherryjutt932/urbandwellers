@@ -13,9 +13,9 @@ export default function News() {
         NewsList.map((item, index)=>{
           return(
             <Link  
-    href="/pages/News/[id]" as={`/pages/News/${item.id}`}
+    href="/pages/News/[id]" key={index} as={`/pages/News/${item.id}`}
     >
-            <Card key={index} item={item} className='w-screen h-screen border border-borderClr' />
+            <Card  item={item} className='w-screen h-screen border border-borderClr' />
             </Link>
           )
         })

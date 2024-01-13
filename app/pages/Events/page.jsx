@@ -12,9 +12,9 @@ export default function Events() {
         EventsList.map((item, index)=>{
           return(
             <Link  
-    href="/pages/Events/[id]" as={`/pages/Events/${item.id}`}
+    href="/pages/Events/[id]" key={index} as={`/pages/Events/${item.id}`}
     >
-            <Card key={index} item={item} className='w-screen h-screen border border-borderClr' />
+            <Card  item={item} className='w-screen h-screen border border-borderClr' />
             </Link>
           )
         })
