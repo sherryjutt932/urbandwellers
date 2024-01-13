@@ -37,9 +37,8 @@ export default function Home() {
           );
         } else if (type === "event") {
           return (
-            <Link href="/pages/Events/[id]" as={`/pages/Events/${item.id}`}>
+            <Link key={index} href="/pages/Events/[id]" as={`/pages/Events/${item.id}`}>
               <Card
-                key={index}
                 item={item}
                 className="w-screen h-screen border border-borderClr"
               />
@@ -47,9 +46,9 @@ export default function Home() {
           );
         } else {
           return (
-            <Link href="/pages/News/[id]" as={`/pages/News/${item.id}`}>
+            <Link key={index} href="/pages/News/[id]" as={`/pages/News/${item.id}`}>
               <Card
-                key={index}
+                
                 item={item}
                 className="w-screen h-screen border border-borderClr"
               />
