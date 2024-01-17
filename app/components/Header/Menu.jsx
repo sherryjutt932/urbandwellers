@@ -122,8 +122,7 @@ export default function Menu({ handleMenuToggle }) {
           NEWSLETTER
         </p>
         <p className="p-6 mb-5">
-          Sign up for the Moog newsletter to be the first to hear about new Moog
-          synthesizers, synth tutorials and events in your area.
+        Sign up for the UD Music newsletter to be the first to hear about new Urban Dwellers Music news and events in your area.
         </p>
 
         <div className="p-6 gap-6 flex-grow flex flex-col justify-end">

@@ -62,12 +62,19 @@ const ArtistPage = () => {
           </h1>
 
           <div className="sm:mt-4 flex flex-col sm:flex-row items-end">
-            <button className="text-black px-6 py-3 flex justify-between uppercase items-center bg-[#FAAF4A] hover:bg-[#F7A434] transition_theme w-full sm:w-[40%]">
+            <a 
+            target={"_blank"}
+            rel="noopener noreferrer"
+            href={"https://urbandwellerlifestyle.myshopify.com/products/urban-dwellers-music-unisex-heavy-blend™-crewneck-sweatshirt"}
+            className="text-black px-6 py-3 flex justify-between uppercase items-center bg-[#FAAF4A] hover:bg-[#F7A434] transition_theme w-full sm:w-[40%]"
+            >
+            <button className="text-black px-6 py-3 flex justify-between uppercase items-center w-full">
               <span>Buy Today</span>
               <span className={`ml-4 text-base`}>
                 <FaArrowRightLong />
               </span>
             </button>
+            </a>
 
             <div className="sm:block hidden sm:w-[60%] p-4 sm:p-10 text-[#878080]">
               {item.bio}
@@ -218,7 +225,7 @@ const ArtistPage = () => {
           <HeadingTag tag={"downloads"} />
 
           <div className="w-[30vw] max-w-[20ch] mx-10  text-3xl font-medium leading-tight">
-            Minimoog Model D Downloads
+            Urban Dwellers Model D Downloads
           </div>
 
           <div className="flex gap-6 p-10 flex-grow flex-col">
@@ -273,7 +280,7 @@ const ArtistPage = () => {
                       })}
                     </div>
                     <h3 className="text-base sm:text-2xl font-medium leading-tight">
-                      {relatedItem.latest}
+                      {relatedItem.title}
                     </h3>
 
                     <div className="flex gap-3 items-center font-semibold">
