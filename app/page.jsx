@@ -8,6 +8,14 @@ import ArtistCard from "./components/ArtistCard";
 import MerchCard from "./components/MerchCard";
 import Link from "next/link";
 
+// package.json for vps 
+// "start": "next start -H 0.0.0.0 -p 3000",
+// "start:external": "HOST=0.0.0.0 PORT=3000 next start"     
+
+// for dev
+// "start": "next start"
+
+
 export default function Home() {
   const combinedArray = [
     ...News.map((item) => ({ type: "news", item })),
