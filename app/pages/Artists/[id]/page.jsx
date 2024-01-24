@@ -252,7 +252,7 @@ const ArtistPage = () => {
 
       {filteredItems.length > 0 && (
         <div className="flex flex-nowrap flex-col sm:flex-row w-full h-fit sm:w-fit sm:h-full relative">
-          <HeadingTag tag={"related items"} />
+          <HeadingTag tag={"related"} />
           {filteredItems.map((relatedItem, index) => {
             return (
               <Link

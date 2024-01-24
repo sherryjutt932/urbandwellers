@@ -5,126 +5,115 @@ const Artists = [
     timestamp: "2024-01-13T12:30:00Z",
     tags: ["latest"],
     title: "Great Dark Rift",
-    bio: "Built to last a lifetime, each new Urban Dwellers MODEL D delivers the revered quality, undefinable feel, and authentic sound of a pristine vintage Urban Dwellers .",
+    bio: "Great Dark Rift is a highly acclaimed rock band known for their electrifying performances and unique fusion of rock, funk, and hip-hop. Founded in 2023, the band quickly gained a devoted following with their energetic live shows and socially conscious lyrics.",
     appleMusic: "https://music.apple.com/us/artist/great-dark-rift/1689441643",
     spotify: "https://open.spotify.com/artist/4WAL8qQCMzjtsGQlriw83c",
     latest: "Mercy - Single (feat. Afrika Bambaataa) - Single",
     latestimg: "/Artists/Mercy - Single (feat. Afrika Bambaataa) - Single.png",
     latesturl:
       "https://music.apple.com/us/album/mercy-single-feat-afrika-bambaataa-single/1721061898",
-    gallery: [
-      { product: "/Artists/product1.jpg",
-      detail: "The archetype of a synthesizer"
-     },
-      { product: "/Artists/product2.jpg",
-      detail: "Placing the utmost importance on high-quality materials, all components are carefully sourced and crafted to capture the indescribable feeling of the original Urban Dwellers MODEL D.",
-      label:"ATTENTION TO DETAIL"
-     },
-      { product: "/Artists/product3.jpg",
-      detail: "This reissue features the identical sound engine and signal path of the 1970s Model D plus a series of popular modifications.",
-      label: "PERFORMANCE MODIFICATIONS",
-    }
-    ],
+      gallery: [
+        { product: "/Artists/product1.jpg",
+        detail: ""
+       },
+      ],
 
-    blogLabel: "THE Urban Dwellers MODEL D",
+    blogLabel: "About ",
     blog:[
-      "Originally released in 1970, Urban Dwellers MODEL D was the world’s first portable synthesizer and served as the archetype for all electronic keyboards that followed. The all-analog instrument gained acclaim for combining the colossal sound of the 1960s Urban Dwellers modular synthesizers with the accessibility of pre-wired modules—meaning that it could be played instantly and intuitively with no patch cables required. It was quickly embraced by a diverse roster of performers, with artists like Herbie Hancock, Kraftwerk, Rick Wakeman, Sun Ra, Piero Umiliani, Giorgio Moroder, Bernie Worrell, and Gary Numan all shaping unique sounds and forging new musical genres using the instrument.",
-      "More than a half-century since its invention, Urban Dwellers MODEL D is back in production at the Urban Dwellers factory in Asheville, North Carolina. An exceptional sonic tool and one of the most beloved and iconic synthesizers ever designed, it returns to the hands of synthesists of all kinds and serves as inspiration for the next generation of electronic musicians.",
-      "The three-oscillator, monophonic, analog synthesizer is securely housed in a locally sourced Appalachian cherry cabinet and hand-finished aluminum chassis. Sounding as vibrant and deep as ever, its legendary low-pass ladder filter, powerful oscillators, and rich saturating mixer retain the exact component placement and through-hole design of a 1970s-era Urban Dwellers MODEL D.",
-      "While no changes have been made to the original sound engine or audio signal path, the 2022 Urban Dwellers MODEL D includes a series of popular functional modifications that expand this legendary instrument’s sonic capabilities. These modifications include a dedicated analog LFO with triangle and square waveshapes, a premium Fatar keybed with velocity and after pressure available via top panel CV jacks with onboard trimpots, MIDI integration, and a mixer feedback modification which allows the Urban Dwellers MODEL D to overdrive and scream with the turn of a knob. And, for the first time in its history, the Urban Dwellers MODEL D now features a spring-loaded pitch wheel with center deadband, allowing for improved playability and wild performance flourishes. This newest edition also includes updates to the MIDI functionality, allowing for improved modern studio integration. "
+      `Lead singer Afrika Bambaataa is a pioneering figure in hip-hop culture and known as the "Godfather of Hip Hop." With his distinctive voice and powerful stage presence, he brings a dynamic energy to Great Dark Rift's performances.`,
+      "The band's lineup also includes accomplished musicians on guitar, bass, drums, and keyboard, who together create a powerful sound that is both raw and polished. Their music draws from a wide range of influences, from classic rock to jazz and blues, resulting in a sound that is both timeless and fresh.",
+      `Great Dark Rift has released critically acclaimed albums, including their breakout 2023 release “Tom Sawyer" Their music has been featured in numerous films, television shows, and video games, and they have toured extensively throughout the United States and internationally.`,
+      "With their powerful music and socially conscious message, Great Dark Rift has become a leading voice in the rock music scene, inspiring fans with their passionate performances and commitment to making a positive impact on the world."
     ],
 
     video: {
       src: "/Artists/video.mp4",
-      title: "Urban Dwellers MODEL D | Will Gregory Urban Dwellers Ensemble | Archimedes Screw",
+      title: "Great Dark Rift",
       detail: [
-        "Originally released in 1970, Urban Dwellers MODEL D was the world’s first portable synthesizer and served as the archetype for all electronic keyboards that followed. The all-analog instrument gained acclaim for combining the colossal sound of the 1960s Urban Dwellers modular synthesizers with the accessibility of pre-wired modules—meaning that it could be played instantly and intuitively with no patch cables required. It was quickly embraced by a diverse roster of performers, with artists like Herbie Hancock, Kraftwerk, Rick Wakeman, Sun Ra, Piero Umiliani, Giorgio Moroder, Bernie Worrell, and Gary Numan all shaping unique sounds and forging new musical genres using the instrument.",
-        "More than a half-century since its invention, Urban Dwellers MODEL D is back in production at the Urban Dwellers factory in Asheville, North Carolina. An exceptional sonic tool and one of the most beloved and iconic synthesizers ever designed, it returns to the hands of synthesists of all kinds and serves as inspiration for the next generation of electronic musicians.",
-        "The three-oscillator, monophonic, analog synthesizer is securely housed in a locally sourced Appalachian cherry cabinet and hand-finished aluminum chassis. Sounding as vibrant and deep as ever, its legendary low-pass ladder filter, powerful oscillators, and rich saturating mixer retain the exact component placement and through-hole design of a 1970s-era Urban Dwellers MODEL D.",
-        "While no changes have been made to the original sound engine or audio signal path, the 2022 Urban Dwellers MODEL D includes a series of popular functional modifications that expand this legendary instrument’s sonic capabilities. These modifications include a dedicated analog LFO with triangle and square waveshapes, a premium Fatar keybed with velocity and after pressure available via top panel CV jacks with onboard trimpots, MIDI integration, and a mixer feedback modification which allows the Urban Dwellers MODEL D to overdrive and scream with the turn of a knob. And, for the first time in its history, the Urban Dwellers MODEL D now features a spring-loaded pitch wheel with center deadband, allowing for improved playability and wild performance flourishes. This newest edition also includes updates to the MIDI functionality, allowing for improved modern studio integration. "
+        "The band's lineup also includes accomplished musicians on guitar, bass, drums, and keyboard, who together create a powerful sound that is both raw and polished. Their music draws from a wide range of influences, from classic rock to jazz and blues, resulting in a sound that is both timeless and fresh."
       ],
     },
 
-    specs:[
-      {
-        title:"NUMBER OF KEYS",
-        detail:"44",
-      },
-      {
-        title:"KEYBOARD RANGE",
-        detail:"F0 to C4",
-      },
-      {
-        title:"KEYBOARD ACTION",
-        detail:"Synthesizer (Spring)",
-      },
-      {
-        title:"NOTE PRIORITY",
-        detail:"(Low, High, Last): User Selectable",
-      },
-      {
-        title:"SOUND SOURCES",
-        detail:"3x Oscillators, Noise Generator and External Audio Input",
-      },
-      {
-        title:"OSCILLATOR FREQUENCY RANGE",
-        detail:"0.1 to 20 kHz (In Six Overlapping Ranges)",
-      },
-      {
-        title:"OSCILLATOR STABILITY",
-        detail:"(short term) > 0.25 %",
-      },
-      {
-        title:"OSCILLATOR WAVEFORMS",
-        detail:"Triangle, Triangle-Sawtooth (Oscillator–1, Oscillator–2), Reverse Sawtooth (Oscillator–3), Sawtooth, Rectangle, Wide Pulse and Narrow Pulse.",
-      },
-      {
-        title:"NOISE GENERATOR",
-        detail:"White and Pink",
-      },
-      {
-        title:"LFO RATE",
-        detail:"0.05Hz to 200 Hz",
-      },
-      {
-        title:"LFO WAVEFORM ",
-        detail:"Triangle (knob down); Square (knob up)",
-      },
-      {
-        title:"EXTERNAL MODULATION INPUT RANGE",
-        detail:"+10 millivolts to +2 volts",
-      },
-      {
-        title:"EXTERNAL MODULATION INPUT IMPEDANCE",
-        detail:"1MEG Ohms",
-      },
-      {
-        title:"KEYBOARD RANGE",
-        detail:"F0 to C4",
-      },
-      {
-        title:"KEYBOARD ACTION",
-        detail:"Synthesizer (Spring)",
-      },
-      {
-        title:"NOTE PRIORITY",
-        detail:"(Low, High, Last): User Selectable",
-      },
-      {
-        title:"SOUND SOURCES",
-        detail:"3x Oscillators, Noise Generator and External Audio Input",
-      },
-    ],
-    downloads: [
-      { 
-        title: "The archetype of a synthesizer",
-        url: "/Artists/product1.jpg",
-     },
-      { 
-        title: "User Selectable",
-        url: "/Artists/product1.jpg",
-     },
-    ],
+    // specs:[
+    //   {
+    //     title:"NUMBER OF KEYS",
+    //     detail:"44",
+    //   },
+    //   {
+    //     title:"KEYBOARD RANGE",
+    //     detail:"F0 to C4",
+    //   },
+    //   {
+    //     title:"KEYBOARD ACTION",
+    //     detail:"Synthesizer (Spring)",
+    //   },
+    //   {
+    //     title:"NOTE PRIORITY",
+    //     detail:"(Low, High, Last): User Selectable",
+    //   },
+    //   {
+    //     title:"SOUND SOURCES",
+    //     detail:"3x Oscillators, Noise Generator and External Audio Input",
+    //   },
+    //   {
+    //     title:"OSCILLATOR FREQUENCY RANGE",
+    //     detail:"0.1 to 20 kHz (In Six Overlapping Ranges)",
+    //   },
+    //   {
+    //     title:"OSCILLATOR STABILITY",
+    //     detail:"(short term) > 0.25 %",
+    //   },
+    //   {
+    //     title:"OSCILLATOR WAVEFORMS",
+    //     detail:"Triangle, Triangle-Sawtooth (Oscillator–1, Oscillator–2), Reverse Sawtooth (Oscillator–3), Sawtooth, Rectangle, Wide Pulse and Narrow Pulse.",
+    //   },
+    //   {
+    //     title:"NOISE GENERATOR",
+    //     detail:"White and Pink",
+    //   },
+    //   {
+    //     title:"LFO RATE",
+    //     detail:"0.05Hz to 200 Hz",
+    //   },
+    //   {
+    //     title:"LFO WAVEFORM ",
+    //     detail:"Triangle (knob down); Square (knob up)",
+    //   },
+    //   {
+    //     title:"EXTERNAL MODULATION INPUT RANGE",
+    //     detail:"+10 millivolts to +2 volts",
+    //   },
+    //   {
+    //     title:"EXTERNAL MODULATION INPUT IMPEDANCE",
+    //     detail:"1MEG Ohms",
+    //   },
+    //   {
+    //     title:"KEYBOARD RANGE",
+    //     detail:"F0 to C4",
+    //   },
+    //   {
+    //     title:"KEYBOARD ACTION",
+    //     detail:"Synthesizer (Spring)",
+    //   },
+    //   {
+    //     title:"NOTE PRIORITY",
+    //     detail:"(Low, High, Last): User Selectable",
+    //   },
+    //   {
+    //     title:"SOUND SOURCES",
+    //     detail:"3x Oscillators, Noise Generator and External Audio Input",
+    //   },
+    // ],
+    // downloads: [
+    //   { 
+    //     title: "The archetype of a synthesizer",
+    //     url: "/Artists/product1.jpg",
+    //  },
+    //   { 
+    //     title: "User Selectable",
+    //     url: "/Artists/product1.jpg",
+    //  },
+    // ],
 
   },
 
@@ -135,7 +124,7 @@ const Artists = [
     tags: ["latest"],
     title: "L.V.X.",
     pic:"/Artists/l.v.x.jpeg",
-    bio: "Built to last a lifetime, each new Urban Dwellers MODEL D delivers the revered quality, undefinable feel, and authentic sound of a pristine vintage Urban Dwellers .",
+    bio: `Prepare to embark on an electrifying musical odyssey as the legendary Afrika Bambaataa takes us on a captivating journey through sound and imagination with his latest single, "Dark Light LVX." In this promotional write-up, we dive into the essence of this groundbreaking track, a testament to Bambaataa's enduring influence on electronic music.`,
     appleMusic: "https://music.apple.com/us/artist/l-v-x/1715770372",
     spotify: "https://open.spotify.com/artist/6HIyn0LbMePgzEeJOJ8lcI",
     latest: "Hustler Anthem - Single",
@@ -144,114 +133,37 @@ const Artists = [
       "https://music.apple.com/us/album/hustler-anthem-single/1720618599",
       gallery: [
         { product: "/Artists/l.v.x2.jpeg",
-        detail: "The archetype of a synthesizer"
+        detail: "L.V.X."
        },
         { product: "/Artists/l.v.x3.png",
-        detail: "Placing the utmost importance on high-quality materials, all components are carefully sourced and crafted to capture the indescribable feeling of the original Urban Dwellers MODEL D.",
-        label:"ATTENTION TO DETAIL"
+        detail: "L.V.X.",
+        label:"Picture"
        },
+       { product: "/Artists/l.v.x.jpeg",
+       detail: "L.V.X.",
+       label:"Picture"
+      },
        
       ],
   
-      blogLabel: "THE Urban Dwellers MODEL D",
+      blogLabel: "Detail",
       blog:[
-        "Originally released in 1970, Urban Dwellers MODEL D was the world’s first portable synthesizer and served as the archetype for all electronic keyboards that followed. The all-analog instrument gained acclaim for combining the colossal sound of the 1960s Urban Dwellers modular synthesizers with the accessibility of pre-wired modules—meaning that it could be played instantly and intuitively with no patch cables required. It was quickly embraced by a diverse roster of performers, with artists like Herbie Hancock, Kraftwerk, Rick Wakeman, Sun Ra, Piero Umiliani, Giorgio Moroder, Bernie Worrell, and Gary Numan all shaping unique sounds and forging new musical genres using the instrument.",
-        "More than a half-century since its invention, Urban Dwellers MODEL D is back in production at the Urban Dwellers factory in Asheville, North Carolina. An exceptional sonic tool and one of the most beloved and iconic synthesizers ever designed, it returns to the hands of synthesists of all kinds and serves as inspiration for the next generation of electronic musicians.",
-        "The three-oscillator, monophonic, analog synthesizer is securely housed in a locally sourced Appalachian cherry cabinet and hand-finished aluminum chassis. Sounding as vibrant and deep as ever, its legendary low-pass ladder filter, powerful oscillators, and rich saturating mixer retain the exact component placement and through-hole design of a 1970s-era Urban Dwellers MODEL D.",
-        "While no changes have been made to the original sound engine or audio signal path, the 2022 Urban Dwellers MODEL D includes a series of popular functional modifications that expand this legendary instrument’s sonic capabilities. These modifications include a dedicated analog LFO with triangle and square waveshapes, a premium Fatar keybed with velocity and after pressure available via top panel CV jacks with onboard trimpots, MIDI integration, and a mixer feedback modification which allows the Urban Dwellers MODEL D to overdrive and scream with the turn of a knob. And, for the first time in its history, the Urban Dwellers MODEL D now features a spring-loaded pitch wheel with center deadband, allowing for improved playability and wild performance flourishes. This newest edition also includes updates to the MIDI functionality, allowing for improved modern studio integration. "
+        `For over four decades, Afrika Bambaataa has been at the forefront of music innovation. As one of the pioneers of hip-hop and electronic music, he has continually pushed boundaries and redefined genres. "Dark Light LVX" is no exception. This single showcases his unwavering commitment to pushing the envelope and exploring new sonic territories.`,
+        `"Dark Light LVX" is a sonic tapestry woven with intricate beats, pulsating rhythms, and otherworldly synthesizers. The track effortlessly melds elements of electronica, hip-hop, and futuristic soundscapes, creating a musical experience that transcends time and space.`,
+        `Bambaataa, Anunnunati & Haj known for his collaborations with visionary artists, teams up with talented producers and musicians to bring "Dark Light LVX" to life. Their collective genius results in a track that is not only innovative but also infectious, leaving listeners craving more with each listen.`,
+        `Beyond its hypnotic melodies and infectious beats, "Dark Light LVX" carries a powerful message. It explores the dichotomy between darkness and light, a theme deeply embedded in Bambaataa's work. Through his music, he challenges listeners to reflect on the world's complexities while offering hope for a brighter future.`,
+        `"Dark Light LVX" is more than just a single; it's a testament to Afrika Bambaataa's enduring impact on the music industry. With its groundbreaking sound, collaborative spirit, and thought-provoking message, this track stands as a shining example of Bambaataa's ability to shape the future of music.`,
       ],
   
       video: {
         src: "/Artists/video.mp4",
-        title: "Urban Dwellers MODEL D | Will Gregory Urban Dwellers Ensemble | Archimedes Screw",
+        title: "Dark Light LVX",
         detail: [
-          "Originally released in 1970, Urban Dwellers MODEL D was the world’s first portable synthesizer and served as the archetype for all electronic keyboards that followed. The all-analog instrument gained acclaim for combining the colossal sound of the 1960s Urban Dwellers modular synthesizers with the accessibility of pre-wired modules—meaning that it could be played instantly and intuitively with no patch cables required. It was quickly embraced by a diverse roster of performers, with artists like Herbie Hancock, Kraftwerk, Rick Wakeman, Sun Ra, Piero Umiliani, Giorgio Moroder, Bernie Worrell, and Gary Numan all shaping unique sounds and forging new musical genres using the instrument.",
-          "More than a half-century since its invention, Urban Dwellers MODEL D is back in production at the Urban Dwellers factory in Asheville, North Carolina. An exceptional sonic tool and one of the most beloved and iconic synthesizers ever designed, it returns to the hands of synthesists of all kinds and serves as inspiration for the next generation of electronic musicians.",
-          "The three-oscillator, monophonic, analog synthesizer is securely housed in a locally sourced Appalachian cherry cabinet and hand-finished aluminum chassis. Sounding as vibrant and deep as ever, its legendary low-pass ladder filter, powerful oscillators, and rich saturating mixer retain the exact component placement and through-hole design of a 1970s-era Urban Dwellers MODEL D.",
-          "While no changes have been made to the original sound engine or audio signal path, the 2022 Urban Dwellers MODEL D includes a series of popular functional modifications that expand this legendary instrument’s sonic capabilities. These modifications include a dedicated analog LFO with triangle and square waveshapes, a premium Fatar keybed with velocity and after pressure available via top panel CV jacks with onboard trimpots, MIDI integration, and a mixer feedback modification which allows the Urban Dwellers MODEL D to overdrive and scream with the turn of a knob. And, for the first time in its history, the Urban Dwellers MODEL D now features a spring-loaded pitch wheel with center deadband, allowing for improved playability and wild performance flourishes. This newest edition also includes updates to the MIDI functionality, allowing for improved modern studio integration. "
+          `Get ready to experience "Dark Light LVX" – a musical journey that pushes boundaries, defies conventions, and showcases the timeless genius of Afrika Bambaataa. Embrace the darkness, embrace the light, and let the music guide you through this unforgettable sonic adventure.`,
         ],
       },
   
-      specs:[
-        {
-          title:"NUMBER OF KEYS",
-          detail:"44",
-        },
-        {
-          title:"KEYBOARD RANGE",
-          detail:"F0 to C4",
-        },
-        {
-          title:"KEYBOARD ACTION",
-          detail:"Synthesizer (Spring)",
-        },
-        {
-          title:"NOTE PRIORITY",
-          detail:"(Low, High, Last): User Selectable",
-        },
-        {
-          title:"SOUND SOURCES",
-          detail:"3x Oscillators, Noise Generator and External Audio Input",
-        },
-        {
-          title:"OSCILLATOR FREQUENCY RANGE",
-          detail:"0.1 to 20 kHz (In Six Overlapping Ranges)",
-        },
-        {
-          title:"OSCILLATOR STABILITY",
-          detail:"(short term) > 0.25 %",
-        },
-        {
-          title:"OSCILLATOR WAVEFORMS",
-          detail:"Triangle, Triangle-Sawtooth (Oscillator–1, Oscillator–2), Reverse Sawtooth (Oscillator–3), Sawtooth, Rectangle, Wide Pulse and Narrow Pulse.",
-        },
-        {
-          title:"NOISE GENERATOR",
-          detail:"White and Pink",
-        },
-        {
-          title:"LFO RATE",
-          detail:"0.05Hz to 200 Hz",
-        },
-        {
-          title:"LFO WAVEFORM ",
-          detail:"Triangle (knob down); Square (knob up)",
-        },
-        {
-          title:"EXTERNAL MODULATION INPUT RANGE",
-          detail:"+10 millivolts to +2 volts",
-        },
-        {
-          title:"EXTERNAL MODULATION INPUT IMPEDANCE",
-          detail:"1MEG Ohms",
-        },
-        {
-          title:"KEYBOARD RANGE",
-          detail:"F0 to C4",
-        },
-        {
-          title:"KEYBOARD ACTION",
-          detail:"Synthesizer (Spring)",
-        },
-        {
-          title:"NOTE PRIORITY",
-          detail:"(Low, High, Last): User Selectable",
-        },
-        {
-          title:"SOUND SOURCES",
-          detail:"3x Oscillators, Noise Generator and External Audio Input",
-        },
-      ],
-      downloads: [
-        { 
-          title: "The archetype of a synthesizer",
-          url: "/Artists/product1.jpg",
-       },
-        { 
-          title: "User Selectable",
-          url: "/Artists/product1.jpg",
-       },
-      ],
+    
   },
   {
     id:"3",
@@ -260,7 +172,7 @@ const Artists = [
     tags: ["latest"],
     title: "Eureka Gold",
     pic:"/Artists/Eureka Gold.jpeg",
-    bio: "Built to last a lifetime, each new Urban Dwellers MODEL D delivers the revered quality, undefinable feel, and authentic sound of a pristine vintage Urban Dwellers .",
+    bio: `Afrika Bambaataa is often referred to as the "Father of Electro Funk." He played a significant role in the development of the electro-funk genre, particularly with his influential track "Planet Rock" released in 1982.`,
     appleMusic: "https://music.apple.com/us/artist/eureka-gold/1701518642",
     spotify: "https://open.spotify.com/artist/0wieKdXkP41FrdvNC9eN4J",
     latest: "Jump up (Instrumental) - Single",
@@ -269,113 +181,35 @@ const Artists = [
       "https://music.apple.com/us/album/jump-up-instrumental-single/1715659282",
       gallery: [
         { product: "/Artists/Eureka Gold3.jpeg",
-        detail: "The archetype of a synthesizer"
+        detail: ""
        },
         { product: "/Artists/Eureka Gold2.jpeg",
-        detail: "Placing the utmost importance on high-quality materials, all components are carefully sourced and crafted to capture the indescribable feeling of the original Urban Dwellers MODEL D.",
-        label:"ATTENTION TO DETAIL"
+        detail: "",
+        label:""
+       },
+       { product: "/Artists/Eureka Gold.jpeg",
+        detail: "",
+        label:""
        }
       ],
   
-      blogLabel: "THE Urban Dwellers MODEL D",
+      blogLabel: "Detail",
       blog:[
-        "Originally released in 1970, Urban Dwellers MODEL D was the world’s first portable synthesizer and served as the archetype for all electronic keyboards that followed. The all-analog instrument gained acclaim for combining the colossal sound of the 1960s Urban Dwellers modular synthesizers with the accessibility of pre-wired modules—meaning that it could be played instantly and intuitively with no patch cables required. It was quickly embraced by a diverse roster of performers, with artists like Herbie Hancock, Kraftwerk, Rick Wakeman, Sun Ra, Piero Umiliani, Giorgio Moroder, Bernie Worrell, and Gary Numan all shaping unique sounds and forging new musical genres using the instrument.",
-        "More than a half-century since its invention, Urban Dwellers MODEL D is back in production at the Urban Dwellers factory in Asheville, North Carolina. An exceptional sonic tool and one of the most beloved and iconic synthesizers ever designed, it returns to the hands of synthesists of all kinds and serves as inspiration for the next generation of electronic musicians.",
-        "The three-oscillator, monophonic, analog synthesizer is securely housed in a locally sourced Appalachian cherry cabinet and hand-finished aluminum chassis. Sounding as vibrant and deep as ever, its legendary low-pass ladder filter, powerful oscillators, and rich saturating mixer retain the exact component placement and through-hole design of a 1970s-era Urban Dwellers MODEL D.",
-        "While no changes have been made to the original sound engine or audio signal path, the 2022 Urban Dwellers MODEL D includes a series of popular functional modifications that expand this legendary instrument’s sonic capabilities. These modifications include a dedicated analog LFO with triangle and square waveshapes, a premium Fatar keybed with velocity and after pressure available via top panel CV jacks with onboard trimpots, MIDI integration, and a mixer feedback modification which allows the Urban Dwellers MODEL D to overdrive and scream with the turn of a knob. And, for the first time in its history, the Urban Dwellers MODEL D now features a spring-loaded pitch wheel with center deadband, allowing for improved playability and wild performance flourishes. This newest edition also includes updates to the MIDI functionality, allowing for improved modern studio integration. "
+        `Bambaataa is recognized for incorporating electronic sounds and beats into his music, contributing to the evolution of hip-hop and electronic dance music. `,
+        'In addition extreme talented producer by the name of Boogie Waters one of the innovators of the miami urban sounds of the early 80’s always evolving musical body of work heard in many commercials and tv shows “Peanut butter Jelly” and many others.'
+
       ],
   
       video: {
         src: "/Artists/video.mp4",
-        title: "Urban Dwellers MODEL D | Will Gregory Urban Dwellers Ensemble | Archimedes Screw",
+        title: "Eureka Gold",
         detail: [
-          "Originally released in 1970, Urban Dwellers MODEL D was the world’s first portable synthesizer and served as the archetype for all electronic keyboards that followed. The all-analog instrument gained acclaim for combining the colossal sound of the 1960s Urban Dwellers modular synthesizers with the accessibility of pre-wired modules—meaning that it could be played instantly and intuitively with no patch cables required. It was quickly embraced by a diverse roster of performers, with artists like Herbie Hancock, Kraftwerk, Rick Wakeman, Sun Ra, Piero Umiliani, Giorgio Moroder, Bernie Worrell, and Gary Numan all shaping unique sounds and forging new musical genres using the instrument.",
-          "More than a half-century since its invention, Urban Dwellers MODEL D is back in production at the Urban Dwellers factory in Asheville, North Carolina. An exceptional sonic tool and one of the most beloved and iconic synthesizers ever designed, it returns to the hands of synthesists of all kinds and serves as inspiration for the next generation of electronic musicians.",
-          "The three-oscillator, monophonic, analog synthesizer is securely housed in a locally sourced Appalachian cherry cabinet and hand-finished aluminum chassis. Sounding as vibrant and deep as ever, its legendary low-pass ladder filter, powerful oscillators, and rich saturating mixer retain the exact component placement and through-hole design of a 1970s-era Urban Dwellers MODEL D.",
-          "While no changes have been made to the original sound engine or audio signal path, the 2022 Urban Dwellers MODEL D includes a series of popular functional modifications that expand this legendary instrument’s sonic capabilities. These modifications include a dedicated analog LFO with triangle and square waveshapes, a premium Fatar keybed with velocity and after pressure available via top panel CV jacks with onboard trimpots, MIDI integration, and a mixer feedback modification which allows the Urban Dwellers MODEL D to overdrive and scream with the turn of a knob. And, for the first time in its history, the Urban Dwellers MODEL D now features a spring-loaded pitch wheel with center deadband, allowing for improved playability and wild performance flourishes. This newest edition also includes updates to the MIDI functionality, allowing for improved modern studio integration. "
+          `Bambaataa is recognized for incorporating electronic sounds and beats into his music, contributing to the evolution of hip-hop and electronic dance music.`,
+         
         ],
       },
   
-      specs:[
-        {
-          title:"NUMBER OF KEYS",
-          detail:"44",
-        },
-        {
-          title:"KEYBOARD RANGE",
-          detail:"F0 to C4",
-        },
-        {
-          title:"KEYBOARD ACTION",
-          detail:"Synthesizer (Spring)",
-        },
-        {
-          title:"NOTE PRIORITY",
-          detail:"(Low, High, Last): User Selectable",
-        },
-        {
-          title:"SOUND SOURCES",
-          detail:"3x Oscillators, Noise Generator and External Audio Input",
-        },
-        {
-          title:"OSCILLATOR FREQUENCY RANGE",
-          detail:"0.1 to 20 kHz (In Six Overlapping Ranges)",
-        },
-        {
-          title:"OSCILLATOR STABILITY",
-          detail:"(short term) > 0.25 %",
-        },
-        {
-          title:"OSCILLATOR WAVEFORMS",
-          detail:"Triangle, Triangle-Sawtooth (Oscillator–1, Oscillator–2), Reverse Sawtooth (Oscillator–3), Sawtooth, Rectangle, Wide Pulse and Narrow Pulse.",
-        },
-        {
-          title:"NOISE GENERATOR",
-          detail:"White and Pink",
-        },
-        {
-          title:"LFO RATE",
-          detail:"0.05Hz to 200 Hz",
-        },
-        {
-          title:"LFO WAVEFORM ",
-          detail:"Triangle (knob down); Square (knob up)",
-        },
-        {
-          title:"EXTERNAL MODULATION INPUT RANGE",
-          detail:"+10 millivolts to +2 volts",
-        },
-        {
-          title:"EXTERNAL MODULATION INPUT IMPEDANCE",
-          detail:"1MEG Ohms",
-        },
-        {
-          title:"KEYBOARD RANGE",
-          detail:"F0 to C4",
-        },
-        {
-          title:"KEYBOARD ACTION",
-          detail:"Synthesizer (Spring)",
-        },
-        {
-          title:"NOTE PRIORITY",
-          detail:"(Low, High, Last): User Selectable",
-        },
-        {
-          title:"SOUND SOURCES",
-          detail:"3x Oscillators, Noise Generator and External Audio Input",
-        },
-      ],
-      downloads: [
-        { 
-          title: "The archetype of a synthesizer",
-          url: "/Artists/product1.jpg",
-       },
-        { 
-          title: "User Selectable",
-          url: "/Artists/product1.jpg",
-       },
-      ],
+     
   },
   {
     id:"4",
@@ -384,7 +218,7 @@ const Artists = [
     tags: ["latest"],
     title: "Systematic Drum Lords",
     pic:"/Artists/Systematic Drum Lords.png",
-    bio: "Built to last a lifetime, each new Urban Dwellers MODEL D delivers the revered quality, undefinable feel, and authentic sound of a pristine vintage Urban Dwellers .",
+    bio: "Systematic Drum Lords is an innovative electronic dance music (EDM) group known for pushing the boundaries of sound and rhythm. Formed in [Year], the group comprises Afrika Bambaataa and Zek Onester, each bringing a unique flair to their productions.",
     appleMusic:
       "https://music.apple.com/us/artist/systematic-drum-lords/1672825691",
     spotify: "https://open.spotify.com/artist/1K6nSeSgpycsCQl85WlfHu",
@@ -394,114 +228,37 @@ const Artists = [
       "https://music.apple.com/us/album/goddess-of-love-instrumental-single/1714074549",
       gallery: [
         { product: "/Artists/Systematic Drum Lords2.png",
-        detail: "The archetype of a synthesizer"
+        detail: ""
        },
         { product: "/Artists/Systematic Drum Lords3.png",
-        detail: "Placing the utmost importance on high-quality materials, all components are carefully sourced and crafted to capture the indescribable feeling of the original Urban Dwellers MODEL D.",
-        label:"ATTENTION TO DETAIL"
+        detail: "",
+        label:""
+       },
+        { product: "/Artists/Systematic Drum Lords.png",
+        detail: "",
+        label:""
        },
         
       ],
   
-      blogLabel: "THE Urban Dwellers MODEL D",
+      blogLabel: "Detail",
       blog:[
-        "Originally released in 1970, Urban Dwellers MODEL D was the world’s first portable synthesizer and served as the archetype for all electronic keyboards that followed. The all-analog instrument gained acclaim for combining the colossal sound of the 1960s Urban Dwellers modular synthesizers with the accessibility of pre-wired modules—meaning that it could be played instantly and intuitively with no patch cables required. It was quickly embraced by a diverse roster of performers, with artists like Herbie Hancock, Kraftwerk, Rick Wakeman, Sun Ra, Piero Umiliani, Giorgio Moroder, Bernie Worrell, and Gary Numan all shaping unique sounds and forging new musical genres using the instrument.",
-        "More than a half-century since its invention, Urban Dwellers MODEL D is back in production at the Urban Dwellers factory in Asheville, North Carolina. An exceptional sonic tool and one of the most beloved and iconic synthesizers ever designed, it returns to the hands of synthesists of all kinds and serves as inspiration for the next generation of electronic musicians.",
-        "The three-oscillator, monophonic, analog synthesizer is securely housed in a locally sourced Appalachian cherry cabinet and hand-finished aluminum chassis. Sounding as vibrant and deep as ever, its legendary low-pass ladder filter, powerful oscillators, and rich saturating mixer retain the exact component placement and through-hole design of a 1970s-era Urban Dwellers MODEL D.",
-        "While no changes have been made to the original sound engine or audio signal path, the 2022 Urban Dwellers MODEL D includes a series of popular functional modifications that expand this legendary instrument’s sonic capabilities. These modifications include a dedicated analog LFO with triangle and square waveshapes, a premium Fatar keybed with velocity and after pressure available via top panel CV jacks with onboard trimpots, MIDI integration, and a mixer feedback modification which allows the Urban Dwellers MODEL D to overdrive and scream with the turn of a knob. And, for the first time in its history, the Urban Dwellers MODEL D now features a spring-loaded pitch wheel with center deadband, allowing for improved playability and wild performance flourishes. This newest edition also includes updates to the MIDI functionality, allowing for improved modern studio integration. "
+        `With a fusion of diverse influences, Systematic Drum Lords creates music that seamlessly blends elements of techno, house, and experimental electronica. Their sonic palette ranges from pulsating beats to intricate melodies, creating an immersive experience for listeners on dance floors and beyond.`,
+        `The group's journey began in Miami and Bronx, where they quickly gained recognition for their energetic live performances. Their commitment to pushing the EDM envelope led to collaborations with prominent artists and producers in the industry.`,
+        ` Systematic Drum Lords' discography reflects their evolution, featuring tracks that resonate with fans of various EDM sub-genres. From club anthems to more introspective compositions, their music captures the dynamic essence of the electronic music scene.`,
+        `Beyond the studio and stage, Systematic Drum Lords are known for their engagement with fans and the broader EDM community. They continue to contribute to the evolution of electronic dance music, leaving an indelible mark on the genre. As they continue their musical journey, Systematic Drum Lords remain dedicated to crafting sonic experiences that transcend boundaries and elevate the global EDM landscape. `
+
       ],
   
       video: {
         src: "/Artists/video.mp4",
-        title: "Urban Dwellers MODEL D | Will Gregory Urban Dwellers Ensemble | Archimedes Screw",
+        title: "Systematic Drum Lords",
         detail: [
-          "Originally released in 1970, Urban Dwellers MODEL D was the world’s first portable synthesizer and served as the archetype for all electronic keyboards that followed. The all-analog instrument gained acclaim for combining the colossal sound of the 1960s Urban Dwellers modular synthesizers with the accessibility of pre-wired modules—meaning that it could be played instantly and intuitively with no patch cables required. It was quickly embraced by a diverse roster of performers, with artists like Herbie Hancock, Kraftwerk, Rick Wakeman, Sun Ra, Piero Umiliani, Giorgio Moroder, Bernie Worrell, and Gary Numan all shaping unique sounds and forging new musical genres using the instrument.",
-          "More than a half-century since its invention, Urban Dwellers MODEL D is back in production at the Urban Dwellers factory in Asheville, North Carolina. An exceptional sonic tool and one of the most beloved and iconic synthesizers ever designed, it returns to the hands of synthesists of all kinds and serves as inspiration for the next generation of electronic musicians.",
-          "The three-oscillator, monophonic, analog synthesizer is securely housed in a locally sourced Appalachian cherry cabinet and hand-finished aluminum chassis. Sounding as vibrant and deep as ever, its legendary low-pass ladder filter, powerful oscillators, and rich saturating mixer retain the exact component placement and through-hole design of a 1970s-era Urban Dwellers MODEL D.",
-          "While no changes have been made to the original sound engine or audio signal path, the 2022 Urban Dwellers MODEL D includes a series of popular functional modifications that expand this legendary instrument’s sonic capabilities. These modifications include a dedicated analog LFO with triangle and square waveshapes, a premium Fatar keybed with velocity and after pressure available via top panel CV jacks with onboard trimpots, MIDI integration, and a mixer feedback modification which allows the Urban Dwellers MODEL D to overdrive and scream with the turn of a knob. And, for the first time in its history, the Urban Dwellers MODEL D now features a spring-loaded pitch wheel with center deadband, allowing for improved playability and wild performance flourishes. This newest edition also includes updates to the MIDI functionality, allowing for improved modern studio integration. "
+          ` remain dedicated to crafting sonic experiences that transcend boundaries and elevate the global EDM landscape`
         ],
       },
   
-      specs:[
-        {
-          title:"NUMBER OF KEYS",
-          detail:"44",
-        },
-        {
-          title:"KEYBOARD RANGE",
-          detail:"F0 to C4",
-        },
-        {
-          title:"KEYBOARD ACTION",
-          detail:"Synthesizer (Spring)",
-        },
-        {
-          title:"NOTE PRIORITY",
-          detail:"(Low, High, Last): User Selectable",
-        },
-        {
-          title:"SOUND SOURCES",
-          detail:"3x Oscillators, Noise Generator and External Audio Input",
-        },
-        {
-          title:"OSCILLATOR FREQUENCY RANGE",
-          detail:"0.1 to 20 kHz (In Six Overlapping Ranges)",
-        },
-        {
-          title:"OSCILLATOR STABILITY",
-          detail:"(short term) > 0.25 %",
-        },
-        {
-          title:"OSCILLATOR WAVEFORMS",
-          detail:"Triangle, Triangle-Sawtooth (Oscillator–1, Oscillator–2), Reverse Sawtooth (Oscillator–3), Sawtooth, Rectangle, Wide Pulse and Narrow Pulse.",
-        },
-        {
-          title:"NOISE GENERATOR",
-          detail:"White and Pink",
-        },
-        {
-          title:"LFO RATE",
-          detail:"0.05Hz to 200 Hz",
-        },
-        {
-          title:"LFO WAVEFORM ",
-          detail:"Triangle (knob down); Square (knob up)",
-        },
-        {
-          title:"EXTERNAL MODULATION INPUT RANGE",
-          detail:"+10 millivolts to +2 volts",
-        },
-        {
-          title:"EXTERNAL MODULATION INPUT IMPEDANCE",
-          detail:"1MEG Ohms",
-        },
-        {
-          title:"KEYBOARD RANGE",
-          detail:"F0 to C4",
-        },
-        {
-          title:"KEYBOARD ACTION",
-          detail:"Synthesizer (Spring)",
-        },
-        {
-          title:"NOTE PRIORITY",
-          detail:"(Low, High, Last): User Selectable",
-        },
-        {
-          title:"SOUND SOURCES",
-          detail:"3x Oscillators, Noise Generator and External Audio Input",
-        },
-      ],
-      downloads: [
-        { 
-          title: "The archetype of a synthesizer",
-          url: "/Artists/product1.jpg",
-       },
-        { 
-          title: "User Selectable",
-          url: "/Artists/product1.jpg",
-       },
-      ],
+     
   },
   {
     id:"5",
@@ -510,7 +267,7 @@ const Artists = [
     tags: ["latest"],
     title: "THE ROYAL GONZALEZ",
     pic:"/Artists/The Royal Gonzalez.png",
-    bio: "Built to last a lifetime, each new Urban Dwellers MODEL D delivers the revered quality, undefinable feel, and authentic sound of a pristine vintage Urban Dwellers .",
+    bio: "The Royal Gonzalez is a dynamic Latin hip-hop ensemble band from Chile and Panama with a Vintage sound that has captivated audiences with their infectious energy and versatile sound. Formed in 2017 by Oso, Claudio & Aldo, the group quickly rose to prominence for their unique blend of pop melodies and rock instrumentation.",
     appleMusic:
       "https://music.apple.com/us/artist/the-royal-gonzalez/923520079",
     spotify: "https://open.spotify.com/artist/2hEWfuppcCcpPtZHecdzZj",
@@ -521,114 +278,34 @@ const Artists = [
       "https://music.apple.com/us/album/beso-con-humo-single-feat-afrika-bambaataa-single/1719433125",
       gallery: [
         { product: "/Artists/The Royal Gonzalez2.jpeg",
-        detail: "Placing the utmost importance on high-quality materials, all components are carefully sourced and crafted to capture the indescribable feeling of the original Urban Dwellers MODEL D.",
-        label:"ATTENTION TO DETAIL"
+        detail: "",
+        label:""
        },
         { product: "/Artists/The Royal Gonzalez3.jpeg",
-        detail: "This reissue features the identical sound engine and signal path of the 1970s Model D plus a series of popular modifications.",
-        label: "PERFORMANCE MODIFICATIONS",
+        detail: "",
+      },
+        { product: "/Artists/The Royal Gonzalez.png",
+        detail: "",
       }
       ],
   
-      blogLabel: "THE Urban Dwellers MODEL D",
+      blogLabel: "Detail",
       blog:[
-        "Originally released in 1970, Urban Dwellers MODEL D was the world’s first portable synthesizer and served as the archetype for all electronic keyboards that followed. The all-analog instrument gained acclaim for combining the colossal sound of the 1960s Urban Dwellers modular synthesizers with the accessibility of pre-wired modules—meaning that it could be played instantly and intuitively with no patch cables required. It was quickly embraced by a diverse roster of performers, with artists like Herbie Hancock, Kraftwerk, Rick Wakeman, Sun Ra, Piero Umiliani, Giorgio Moroder, Bernie Worrell, and Gary Numan all shaping unique sounds and forging new musical genres using the instrument.",
-        "More than a half-century since its invention, Urban Dwellers MODEL D is back in production at the Urban Dwellers factory in Asheville, North Carolina. An exceptional sonic tool and one of the most beloved and iconic synthesizers ever designed, it returns to the hands of synthesists of all kinds and serves as inspiration for the next generation of electronic musicians.",
-        "The three-oscillator, monophonic, analog synthesizer is securely housed in a locally sourced Appalachian cherry cabinet and hand-finished aluminum chassis. Sounding as vibrant and deep as ever, its legendary low-pass ladder filter, powerful oscillators, and rich saturating mixer retain the exact component placement and through-hole design of a 1970s-era Urban Dwellers MODEL D.",
-        "While no changes have been made to the original sound engine or audio signal path, the 2022 Urban Dwellers MODEL D includes a series of popular functional modifications that expand this legendary instrument’s sonic capabilities. These modifications include a dedicated analog LFO with triangle and square waveshapes, a premium Fatar keybed with velocity and after pressure available via top panel CV jacks with onboard trimpots, MIDI integration, and a mixer feedback modification which allows the Urban Dwellers MODEL D to overdrive and scream with the turn of a knob. And, for the first time in its history, the Urban Dwellers MODEL D now features a spring-loaded pitch wheel with center deadband, allowing for improved playability and wild performance flourishes. This newest edition also includes updates to the MIDI functionality, allowing for improved modern studio integration. "
+        `With influences spanning across various genres, The Royal Gonzalez delivers a diverse musical experience characterized by catchy hooks, anthemic choruses, and skillful instrumentation. Their lyrics often explore themes of good feel music, resonating with listeners on both personal and universal levels.`,
+         `Since their inception, The Royal Gonzalez has gained a reputation for electrifying live performances that showcase their musical prowess and engaging stage presence. Their commitment to delivering an unforgettable experience has garnered them a dedicated fan base and acclaim from music enthusiasts.`,
+         `The band's discography reflects their evolution, with each album showcasing artistic growth and experimentation. From upbeat and radio-friendly pop-rock hits to introspective ballads, [Band Name] has demonstrated a willingness to push creative boundaries while staying true to their signature sound.`,
+
       ],
   
       video: {
         src: "/Artists/video.mp4",
-        title: "Urban Dwellers MODEL D | Will Gregory Urban Dwellers Ensemble | Archimedes Screw",
+        title: "The Royal Gonzalez",
         detail: [
-          "Originally released in 1970, Urban Dwellers MODEL D was the world’s first portable synthesizer and served as the archetype for all electronic keyboards that followed. The all-analog instrument gained acclaim for combining the colossal sound of the 1960s Urban Dwellers modular synthesizers with the accessibility of pre-wired modules—meaning that it could be played instantly and intuitively with no patch cables required. It was quickly embraced by a diverse roster of performers, with artists like Herbie Hancock, Kraftwerk, Rick Wakeman, Sun Ra, Piero Umiliani, Giorgio Moroder, Bernie Worrell, and Gary Numan all shaping unique sounds and forging new musical genres using the instrument.",
-          "More than a half-century since its invention, Urban Dwellers MODEL D is back in production at the Urban Dwellers factory in Asheville, North Carolina. An exceptional sonic tool and one of the most beloved and iconic synthesizers ever designed, it returns to the hands of synthesists of all kinds and serves as inspiration for the next generation of electronic musicians.",
-          "The three-oscillator, monophonic, analog synthesizer is securely housed in a locally sourced Appalachian cherry cabinet and hand-finished aluminum chassis. Sounding as vibrant and deep as ever, its legendary low-pass ladder filter, powerful oscillators, and rich saturating mixer retain the exact component placement and through-hole design of a 1970s-era Urban Dwellers MODEL D.",
-          "While no changes have been made to the original sound engine or audio signal path, the 2022 Urban Dwellers MODEL D includes a series of popular functional modifications that expand this legendary instrument’s sonic capabilities. These modifications include a dedicated analog LFO with triangle and square waveshapes, a premium Fatar keybed with velocity and after pressure available via top panel CV jacks with onboard trimpots, MIDI integration, and a mixer feedback modification which allows the Urban Dwellers MODEL D to overdrive and scream with the turn of a knob. And, for the first time in its history, the Urban Dwellers MODEL D now features a spring-loaded pitch wheel with center deadband, allowing for improved playability and wild performance flourishes. This newest edition also includes updates to the MIDI functionality, allowing for improved modern studio integration. "
+          `As they continue to make waves in the music industry, [Band Name] remains a dynamic force, weaving together the best elements of pop and rock to create a sound uniquely their own. With a commitment to authenticity and a passion for crafting memorable music, The Royal Gonzalez stands poised to leave an enduring mark on the pop and rock landscape.`
         ],
       },
   
-      specs:[
-        {
-          title:"NUMBER OF KEYS",
-          detail:"44",
-        },
-        {
-          title:"KEYBOARD RANGE",
-          detail:"F0 to C4",
-        },
-        {
-          title:"KEYBOARD ACTION",
-          detail:"Synthesizer (Spring)",
-        },
-        {
-          title:"NOTE PRIORITY",
-          detail:"(Low, High, Last): User Selectable",
-        },
-        {
-          title:"SOUND SOURCES",
-          detail:"3x Oscillators, Noise Generator and External Audio Input",
-        },
-        {
-          title:"OSCILLATOR FREQUENCY RANGE",
-          detail:"0.1 to 20 kHz (In Six Overlapping Ranges)",
-        },
-        {
-          title:"OSCILLATOR STABILITY",
-          detail:"(short term) > 0.25 %",
-        },
-        {
-          title:"OSCILLATOR WAVEFORMS",
-          detail:"Triangle, Triangle-Sawtooth (Oscillator–1, Oscillator–2), Reverse Sawtooth (Oscillator–3), Sawtooth, Rectangle, Wide Pulse and Narrow Pulse.",
-        },
-        {
-          title:"NOISE GENERATOR",
-          detail:"White and Pink",
-        },
-        {
-          title:"LFO RATE",
-          detail:"0.05Hz to 200 Hz",
-        },
-        {
-          title:"LFO WAVEFORM ",
-          detail:"Triangle (knob down); Square (knob up)",
-        },
-        {
-          title:"EXTERNAL MODULATION INPUT RANGE",
-          detail:"+10 millivolts to +2 volts",
-        },
-        {
-          title:"EXTERNAL MODULATION INPUT IMPEDANCE",
-          detail:"1MEG Ohms",
-        },
-        {
-          title:"KEYBOARD RANGE",
-          detail:"F0 to C4",
-        },
-        {
-          title:"KEYBOARD ACTION",
-          detail:"Synthesizer (Spring)",
-        },
-        {
-          title:"NOTE PRIORITY",
-          detail:"(Low, High, Last): User Selectable",
-        },
-        {
-          title:"SOUND SOURCES",
-          detail:"3x Oscillators, Noise Generator and External Audio Input",
-        },
-      ],
-      downloads: [
-        { 
-          title: "The archetype of a synthesizer",
-          url: "/Artists/product1.jpg",
-       },
-        { 
-          title: "User Selectable",
-          url: "/Artists/product1.jpg",
-       },
-      ],
+     
   },
   {
     id:"6",
@@ -636,7 +313,7 @@ const Artists = [
     category: "artist",
     tags: ["latest"],
     title: "Lord 7even",
-    bio: "Built to last a lifetime, each new Urban Dwellers MODEL D delivers the revered quality, undefinable feel, and authentic sound of a pristine vintage Urban Dwellers .",
+    bio: "Diabolic, is a fiercely talented rapper recognized for his sharp lyricism and thought-provoking content. Hailing from NY, Diabolic emerged onto the hip-hop scene, leaving an indelible mark with his distinctive style.",
     appleMusic: "https://music.apple.com/us/artist/lord-7even/1693321452",
     spotify: "https://open.spotify.com/artist/3XygbDcnjvbqmpHDP1As2f",
     latest: "Love Jones - Single",
@@ -644,117 +321,27 @@ const Artists = [
     latesturl: "https://music.apple.com/us/album/love-jones-single/1704468884",
     gallery: [
       { product: "/Artists/product1.jpg",
-      detail: "The archetype of a synthesizer"
+      detail: ""
      },
-      { product: "/Artists/product2.jpg",
-      detail: "Placing the utmost importance on high-quality materials, all components are carefully sourced and crafted to capture the indescribable feeling of the original Urban Dwellers MODEL D.",
-      label:"ATTENTION TO DETAIL"
-     },
-      { product: "/Artists/product3.jpg",
-      detail: "This reissue features the identical sound engine and signal path of the 1970s Model D plus a series of popular modifications.",
-      label: "PERFORMANCE MODIFICATIONS",
-    }
     ],
 
-    blogLabel: "THE Urban Dwellers MODEL D",
+    blogLabel: "Detail",
     blog:[
-      "Originally released in 1970, Urban Dwellers MODEL D was the world’s first portable synthesizer and served as the archetype for all electronic keyboards that followed. The all-analog instrument gained acclaim for combining the colossal sound of the 1960s Urban Dwellers modular synthesizers with the accessibility of pre-wired modules—meaning that it could be played instantly and intuitively with no patch cables required. It was quickly embraced by a diverse roster of performers, with artists like Herbie Hancock, Kraftwerk, Rick Wakeman, Sun Ra, Piero Umiliani, Giorgio Moroder, Bernie Worrell, and Gary Numan all shaping unique sounds and forging new musical genres using the instrument.",
-      "More than a half-century since its invention, Urban Dwellers MODEL D is back in production at the Urban Dwellers factory in Asheville, North Carolina. An exceptional sonic tool and one of the most beloved and iconic synthesizers ever designed, it returns to the hands of synthesists of all kinds and serves as inspiration for the next generation of electronic musicians.",
-      "The three-oscillator, monophonic, analog synthesizer is securely housed in a locally sourced Appalachian cherry cabinet and hand-finished aluminum chassis. Sounding as vibrant and deep as ever, its legendary low-pass ladder filter, powerful oscillators, and rich saturating mixer retain the exact component placement and through-hole design of a 1970s-era Urban Dwellers MODEL D.",
-      "While no changes have been made to the original sound engine or audio signal path, the 2022 Urban Dwellers MODEL D includes a series of popular functional modifications that expand this legendary instrument’s sonic capabilities. These modifications include a dedicated analog LFO with triangle and square waveshapes, a premium Fatar keybed with velocity and after pressure available via top panel CV jacks with onboard trimpots, MIDI integration, and a mixer feedback modification which allows the Urban Dwellers MODEL D to overdrive and scream with the turn of a knob. And, for the first time in its history, the Urban Dwellers MODEL D now features a spring-loaded pitch wheel with center deadband, allowing for improved playability and wild performance flourishes. This newest edition also includes updates to the MIDI functionality, allowing for improved modern studio integration. "
+      `Known for his intricate wordplay and socially conscious themes, Diabolic's rhymes often delve into political and societal issues, challenging listeners to critically engage with his music. His aggressive delivery and unapologetic approach set him apart in the rap landscape.`,
+      `Diabolic gained widespread attention with his notable collaborations and features, showcasing his lyrical prowess alongside other prominent artists. His debut album, "Fatality," released in 2023, solidified his position as a formidable force in underground hip-hop.`,
+        `Beyond the music, Diabolic has cultivated a dedicated fan base through his authenticity and commitment to staying true to his roots. His performances, marked by raw energy and a commanding stage presence, have earned him respect in both underground and mainstream circles.`,
+        `As an artist unafraid to tackle controversial topics, Diabolic continues to be a voice for those seeking unfiltered and socially relevant narratives in hip-hop. With a discography that resonates with authenticity and a commitment to pushing boundaries, Diabolic remains a vital figure in the rap landscape, inspiring a new generation of listeners.`
     ],
 
     video: {
       src: "/Artists/video.mp4",
-      title: "Urban Dwellers MODEL D | Will Gregory Urban Dwellers Ensemble | Archimedes Screw",
+      title: "Lord 7even",
       detail: [
-        "Originally released in 1970, Urban Dwellers MODEL D was the world’s first portable synthesizer and served as the archetype for all electronic keyboards that followed. The all-analog instrument gained acclaim for combining the colossal sound of the 1960s Urban Dwellers modular synthesizers with the accessibility of pre-wired modules—meaning that it could be played instantly and intuitively with no patch cables required. It was quickly embraced by a diverse roster of performers, with artists like Herbie Hancock, Kraftwerk, Rick Wakeman, Sun Ra, Piero Umiliani, Giorgio Moroder, Bernie Worrell, and Gary Numan all shaping unique sounds and forging new musical genres using the instrument.",
-        "More than a half-century since its invention, Urban Dwellers MODEL D is back in production at the Urban Dwellers factory in Asheville, North Carolina. An exceptional sonic tool and one of the most beloved and iconic synthesizers ever designed, it returns to the hands of synthesists of all kinds and serves as inspiration for the next generation of electronic musicians.",
-        "The three-oscillator, monophonic, analog synthesizer is securely housed in a locally sourced Appalachian cherry cabinet and hand-finished aluminum chassis. Sounding as vibrant and deep as ever, its legendary low-pass ladder filter, powerful oscillators, and rich saturating mixer retain the exact component placement and through-hole design of a 1970s-era Urban Dwellers MODEL D.",
-        "While no changes have been made to the original sound engine or audio signal path, the 2022 Urban Dwellers MODEL D includes a series of popular functional modifications that expand this legendary instrument’s sonic capabilities. These modifications include a dedicated analog LFO with triangle and square waveshapes, a premium Fatar keybed with velocity and after pressure available via top panel CV jacks with onboard trimpots, MIDI integration, and a mixer feedback modification which allows the Urban Dwellers MODEL D to overdrive and scream with the turn of a knob. And, for the first time in its history, the Urban Dwellers MODEL D now features a spring-loaded pitch wheel with center deadband, allowing for improved playability and wild performance flourishes. This newest edition also includes updates to the MIDI functionality, allowing for improved modern studio integration. "
+        `As an artist unafraid to tackle controversial topics, Diabolic continues to be a voice for those seeking unfiltered and socially relevant narratives in hip-hop. With a discography that resonates with authenticity and a commitment to pushing boundaries, Diabolic remains a vital figure in the rap landscape, inspiring a new generation of listeners.`
       ],
     },
 
-    specs:[
-      {
-        title:"NUMBER OF KEYS",
-        detail:"44",
-      },
-      {
-        title:"KEYBOARD RANGE",
-        detail:"F0 to C4",
-      },
-      {
-        title:"KEYBOARD ACTION",
-        detail:"Synthesizer (Spring)",
-      },
-      {
-        title:"NOTE PRIORITY",
-        detail:"(Low, High, Last): User Selectable",
-      },
-      {
-        title:"SOUND SOURCES",
-        detail:"3x Oscillators, Noise Generator and External Audio Input",
-      },
-      {
-        title:"OSCILLATOR FREQUENCY RANGE",
-        detail:"0.1 to 20 kHz (In Six Overlapping Ranges)",
-      },
-      {
-        title:"OSCILLATOR STABILITY",
-        detail:"(short term) > 0.25 %",
-      },
-      {
-        title:"OSCILLATOR WAVEFORMS",
-        detail:"Triangle, Triangle-Sawtooth (Oscillator–1, Oscillator–2), Reverse Sawtooth (Oscillator–3), Sawtooth, Rectangle, Wide Pulse and Narrow Pulse.",
-      },
-      {
-        title:"NOISE GENERATOR",
-        detail:"White and Pink",
-      },
-      {
-        title:"LFO RATE",
-        detail:"0.05Hz to 200 Hz",
-      },
-      {
-        title:"LFO WAVEFORM ",
-        detail:"Triangle (knob down); Square (knob up)",
-      },
-      {
-        title:"EXTERNAL MODULATION INPUT RANGE",
-        detail:"+10 millivolts to +2 volts",
-      },
-      {
-        title:"EXTERNAL MODULATION INPUT IMPEDANCE",
-        detail:"1MEG Ohms",
-      },
-      {
-        title:"KEYBOARD RANGE",
-        detail:"F0 to C4",
-      },
-      {
-        title:"KEYBOARD ACTION",
-        detail:"Synthesizer (Spring)",
-      },
-      {
-        title:"NOTE PRIORITY",
-        detail:"(Low, High, Last): User Selectable",
-      },
-      {
-        title:"SOUND SOURCES",
-        detail:"3x Oscillators, Noise Generator and External Audio Input",
-      },
-    ],
-    downloads: [
-      { 
-        title: "The archetype of a synthesizer",
-        url: "/Artists/product1.jpg",
-     },
-      { 
-        title: "User Selectable",
-        url: "/Artists/product1.jpg",
-     },
-    ],
+  
   },
   {
     id:"7",
@@ -762,7 +349,7 @@ const Artists = [
     category: "artist",
     tags: ["latest"],
     title: "X.O.C.O.",
-    bio: "Built to last a lifetime, each new Urban Dwellers MODEL D delivers the revered quality, undefinable feel, and authentic sound of a pristine vintage Urban Dwellers .",
+    bio: "Xoco is a captivating vocalist whose soulful voice and emotive delivery have established them as a standout presence in the music industry. Born in Chicago Xoco discovered their passion for singing at a young age and embarked on a journey to share their extraordinary talent with the world.",
     appleMusic: "https://music.apple.com/us/artist/x-o-c-o/1719228213",
     spotify: "https://open.spotify.com/search/X.O.C.O.",
     latest: "Smooth Sailing - Single",
@@ -771,117 +358,35 @@ const Artists = [
       "https://music.apple.com/us/album/smooth-sailing-single/1719321358",
       gallery: [
         { product: "/Artists/product1.jpg",
-        detail: "The archetype of a synthesizer"
+        detail: ""
        },
         { product: "/Artists/product2.jpg",
-        detail: "Placing the utmost importance on high-quality materials, all components are carefully sourced and crafted to capture the indescribable feeling of the original Urban Dwellers MODEL D.",
-        label:"ATTENTION TO DETAIL"
+        detail: "",
        },
         { product: "/Artists/product3.jpg",
-        detail: "This reissue features the identical sound engine and signal path of the 1970s Model D plus a series of popular modifications.",
-        label: "PERFORMANCE MODIFICATIONS",
+        detail: "",
       }
       ],
   
-      blogLabel: "THE Urban Dwellers MODEL D",
+      blogLabel: "Detail",
       blog:[
-        "Originally released in 1970, Urban Dwellers MODEL D was the world’s first portable synthesizer and served as the archetype for all electronic keyboards that followed. The all-analog instrument gained acclaim for combining the colossal sound of the 1960s Urban Dwellers modular synthesizers with the accessibility of pre-wired modules—meaning that it could be played instantly and intuitively with no patch cables required. It was quickly embraced by a diverse roster of performers, with artists like Herbie Hancock, Kraftwerk, Rick Wakeman, Sun Ra, Piero Umiliani, Giorgio Moroder, Bernie Worrell, and Gary Numan all shaping unique sounds and forging new musical genres using the instrument.",
-        "More than a half-century since its invention, Urban Dwellers MODEL D is back in production at the Urban Dwellers factory in Asheville, North Carolina. An exceptional sonic tool and one of the most beloved and iconic synthesizers ever designed, it returns to the hands of synthesists of all kinds and serves as inspiration for the next generation of electronic musicians.",
-        "The three-oscillator, monophonic, analog synthesizer is securely housed in a locally sourced Appalachian cherry cabinet and hand-finished aluminum chassis. Sounding as vibrant and deep as ever, its legendary low-pass ladder filter, powerful oscillators, and rich saturating mixer retain the exact component placement and through-hole design of a 1970s-era Urban Dwellers MODEL D.",
-        "While no changes have been made to the original sound engine or audio signal path, the 2022 Urban Dwellers MODEL D includes a series of popular functional modifications that expand this legendary instrument’s sonic capabilities. These modifications include a dedicated analog LFO with triangle and square waveshapes, a premium Fatar keybed with velocity and after pressure available via top panel CV jacks with onboard trimpots, MIDI integration, and a mixer feedback modification which allows the Urban Dwellers MODEL D to overdrive and scream with the turn of a knob. And, for the first time in its history, the Urban Dwellers MODEL D now features a spring-loaded pitch wheel with center deadband, allowing for improved playability and wild performance flourishes. This newest edition also includes updates to the MIDI functionality, allowing for improved modern studio integration. "
+        `Known for their versatility and vocal range, Xoco has the ability to infuse any genre with raw emotion and authenticity. From heartfelt ballads to upbeat anthems, they bring a distinctive quality to every performance, leaving an indelible mark on listeners.`,
+        `Having honed their craft through years of dedication and hard work, Xoco has graced stages around the world, captivating audiences with their magnetic stage presence. Their ability to connect with listeners on a profound level has earned them acclaim from both fans and fellow musicians.`,
+        `Throughout their career, Xoco has collaborated with renowned producers and artists Afrika Bambaataa, contributing their vocal prowess to a variety of projects. Their discography is a testament to their artistic evolution, showcasing a dynamic range of musical expressions and a commitment to pushing creative boundaries.`,
+        `Beyond the spotlight, Xoco remains grounded and passionate about using their voice to evoke emotions and inspire others. With a dedication to authenticity and a gift for storytelling through song, Xoco continues to leave an enduring impact on the music landscape, solidifying their place as a vocal powerhouse.
+        Magic talented Goddess of love Vocalist on many song for the Label`
       ],
   
       video: {
         src: "/Artists/video.mp4",
-        title: "Urban Dwellers MODEL D | Will Gregory Urban Dwellers Ensemble | Archimedes Screw",
+        title: "X.O.C.O.",
         detail: [
-          "Originally released in 1970, Urban Dwellers MODEL D was the world’s first portable synthesizer and served as the archetype for all electronic keyboards that followed. The all-analog instrument gained acclaim for combining the colossal sound of the 1960s Urban Dwellers modular synthesizers with the accessibility of pre-wired modules—meaning that it could be played instantly and intuitively with no patch cables required. It was quickly embraced by a diverse roster of performers, with artists like Herbie Hancock, Kraftwerk, Rick Wakeman, Sun Ra, Piero Umiliani, Giorgio Moroder, Bernie Worrell, and Gary Numan all shaping unique sounds and forging new musical genres using the instrument.",
-          "More than a half-century since its invention, Urban Dwellers MODEL D is back in production at the Urban Dwellers factory in Asheville, North Carolina. An exceptional sonic tool and one of the most beloved and iconic synthesizers ever designed, it returns to the hands of synthesists of all kinds and serves as inspiration for the next generation of electronic musicians.",
-          "The three-oscillator, monophonic, analog synthesizer is securely housed in a locally sourced Appalachian cherry cabinet and hand-finished aluminum chassis. Sounding as vibrant and deep as ever, its legendary low-pass ladder filter, powerful oscillators, and rich saturating mixer retain the exact component placement and through-hole design of a 1970s-era Urban Dwellers MODEL D.",
-          "While no changes have been made to the original sound engine or audio signal path, the 2022 Urban Dwellers MODEL D includes a series of popular functional modifications that expand this legendary instrument’s sonic capabilities. These modifications include a dedicated analog LFO with triangle and square waveshapes, a premium Fatar keybed with velocity and after pressure available via top panel CV jacks with onboard trimpots, MIDI integration, and a mixer feedback modification which allows the Urban Dwellers MODEL D to overdrive and scream with the turn of a knob. And, for the first time in its history, the Urban Dwellers MODEL D now features a spring-loaded pitch wheel with center deadband, allowing for improved playability and wild performance flourishes. This newest edition also includes updates to the MIDI functionality, allowing for improved modern studio integration. "
+          `With a dedication to authenticity and a gift for storytelling through song, Xoco continues to leave an enduring impact on the music landscape, solidifying their place as a vocal powerhouse.
+          Magic talented Goddess of love Vocalist on many song for the Label`
         ],
       },
   
-      specs:[
-        {
-          title:"NUMBER OF KEYS",
-          detail:"44",
-        },
-        {
-          title:"KEYBOARD RANGE",
-          detail:"F0 to C4",
-        },
-        {
-          title:"KEYBOARD ACTION",
-          detail:"Synthesizer (Spring)",
-        },
-        {
-          title:"NOTE PRIORITY",
-          detail:"(Low, High, Last): User Selectable",
-        },
-        {
-          title:"SOUND SOURCES",
-          detail:"3x Oscillators, Noise Generator and External Audio Input",
-        },
-        {
-          title:"OSCILLATOR FREQUENCY RANGE",
-          detail:"0.1 to 20 kHz (In Six Overlapping Ranges)",
-        },
-        {
-          title:"OSCILLATOR STABILITY",
-          detail:"(short term) > 0.25 %",
-        },
-        {
-          title:"OSCILLATOR WAVEFORMS",
-          detail:"Triangle, Triangle-Sawtooth (Oscillator–1, Oscillator–2), Reverse Sawtooth (Oscillator–3), Sawtooth, Rectangle, Wide Pulse and Narrow Pulse.",
-        },
-        {
-          title:"NOISE GENERATOR",
-          detail:"White and Pink",
-        },
-        {
-          title:"LFO RATE",
-          detail:"0.05Hz to 200 Hz",
-        },
-        {
-          title:"LFO WAVEFORM ",
-          detail:"Triangle (knob down); Square (knob up)",
-        },
-        {
-          title:"EXTERNAL MODULATION INPUT RANGE",
-          detail:"+10 millivolts to +2 volts",
-        },
-        {
-          title:"EXTERNAL MODULATION INPUT IMPEDANCE",
-          detail:"1MEG Ohms",
-        },
-        {
-          title:"KEYBOARD RANGE",
-          detail:"F0 to C4",
-        },
-        {
-          title:"KEYBOARD ACTION",
-          detail:"Synthesizer (Spring)",
-        },
-        {
-          title:"NOTE PRIORITY",
-          detail:"(Low, High, Last): User Selectable",
-        },
-        {
-          title:"SOUND SOURCES",
-          detail:"3x Oscillators, Noise Generator and External Audio Input",
-        },
-      ],
-      downloads: [
-        { 
-          title: "The archetype of a synthesizer",
-          url: "/Artists/product1.jpg",
-       },
-        { 
-          title: "User Selectable",
-          url: "/Artists/product1.jpg",
-       },
-      ],
+      
   },
   {
     id:"8",
@@ -904,108 +409,81 @@ const Artists = [
         { product: "/Artists/AFRIKA BAMBAATAA3.jpeg",
         detail: `Soulsonic Force, under the leadership of Afrika Bambaataa, was influential in introducing electronic and futuristic elements to hip-hop. "Planet Rock" incorporated synthesizers and drum machines, contributing to the birth of electro-funk and shaping the sound of hip-hop for years to come. The group played a pivotal role in expanding the sonic possibilities of the genre and pushing the boundaries of traditional hip-hop music.`,
         label:"leadership of Afrika Bambaataa"
-       }
+       },
+       { product: "/Artists/AFRIKA BAMBAATAA.jpeg",
+       detail: ``,
+       label:""
+      }
       ],
   
-      blogLabel: "THE Urban Dwellers MODEL D",
+      blogLabel: "Detail",
       blog:[
-        "Originally released in 1970, Urban Dwellers MODEL D was the world’s first portable synthesizer and served as the archetype for all electronic keyboards that followed. The all-analog instrument gained acclaim for combining the colossal sound of the 1960s Urban Dwellers modular synthesizers with the accessibility of pre-wired modules—meaning that it could be played instantly and intuitively with no patch cables required. It was quickly embraced by a diverse roster of performers, with artists like Herbie Hancock, Kraftwerk, Rick Wakeman, Sun Ra, Piero Umiliani, Giorgio Moroder, Bernie Worrell, and Gary Numan all shaping unique sounds and forging new musical genres using the instrument.",
-        "More than a half-century since its invention, Urban Dwellers MODEL D is back in production at the Urban Dwellers factory in Asheville, North Carolina. An exceptional sonic tool and one of the most beloved and iconic synthesizers ever designed, it returns to the hands of synthesists of all kinds and serves as inspiration for the next generation of electronic musicians.",
-        "The three-oscillator, monophonic, analog synthesizer is securely housed in a locally sourced Appalachian cherry cabinet and hand-finished aluminum chassis. Sounding as vibrant and deep as ever, its legendary low-pass ladder filter, powerful oscillators, and rich saturating mixer retain the exact component placement and through-hole design of a 1970s-era Urban Dwellers MODEL D.",
-        "While no changes have been made to the original sound engine or audio signal path, the 2022 Urban Dwellers MODEL D includes a series of popular functional modifications that expand this legendary instrument’s sonic capabilities. These modifications include a dedicated analog LFO with triangle and square waveshapes, a premium Fatar keybed with velocity and after pressure available via top panel CV jacks with onboard trimpots, MIDI integration, and a mixer feedback modification which allows the Urban Dwellers MODEL D to overdrive and scream with the turn of a knob. And, for the first time in its history, the Urban Dwellers MODEL D now features a spring-loaded pitch wheel with center deadband, allowing for improved playability and wild performance flourishes. This newest edition also includes updates to the MIDI functionality, allowing for improved modern studio integration. "
+        `gained prominence in the early 1980s. Their most notable track is "Planet Rock," released in 1982, which is considered a groundbreaking piece in the history of hip-hop and electronic music.`,
+        `Soulsonic Force, under the leadership of Afrika Bambaataa, was influential in introducing electronic and futuristic elements to hip-hop. "Planet Rock" incorporated synthesizers and drum machines, contributing to the birth of electro-funk and shaping the sound of hip-hop for years to come. The group played a pivotal role in expanding the sonic possibilities of the genre and pushing the boundaries of traditional hip-hop music.`,
+        `The legendary DJ and Hip-Hop architect also founder of the Universal Zulu Nation a global awareness organization, Afrika Bambaataa, plays a major roll for creating this multi billion dollar industry that we call hip hop today. Born in the Bronx, Afrika Bambaataa is well acknowledged as one of the 3 founders of Hip-Hop.`,
+        `He started deejaying in early 1970 and later launched his Hip-Hop oriented music group called the ‘Universal Zulu Nation’. His music interests were diversified from the start, and would range from African sounds to RnB, classical, Latin jazz as well as Caribbean Calypso.`,
+        `Afrika Bambaataa is well known for his endless support for the development of Hip-Hop and deejaying, and which earned him the name ‘Master of Records’. He was the first DJ to ever perform break-beats. For this reason, many prominent deejays acknowledge him as the Godfather of Hip-Hop and the Amen Ra of the Hip Hop Culture.`,
+        `he is also accredited as the ‘Father’ of Electro-Funk sound. He was nominated in 2007 for an induction into ‘ The Rock and Roll Hall of fame’, and a visiting scholar to Cornell University in 2012 for three years. All in all, the legendary Afrika Bambaataa is renown for his contribution to the development of the Hip-Hop, Disco, Electro-Funk and House music genres.`
+
+
       ],
   
       video: {
         src: "/Artists/video.mp4",
-        title: "Urban Dwellers MODEL D | Will Gregory Urban Dwellers Ensemble | Archimedes Screw",
+        title: "AFRIKA BAMBAATAA3 | Planet Rock",
         detail: [
-          "Originally released in 1970, Urban Dwellers MODEL D was the world’s first portable synthesizer and served as the archetype for all electronic keyboards that followed. The all-analog instrument gained acclaim for combining the colossal sound of the 1960s Urban Dwellers modular synthesizers with the accessibility of pre-wired modules—meaning that it could be played instantly and intuitively with no patch cables required. It was quickly embraced by a diverse roster of performers, with artists like Herbie Hancock, Kraftwerk, Rick Wakeman, Sun Ra, Piero Umiliani, Giorgio Moroder, Bernie Worrell, and Gary Numan all shaping unique sounds and forging new musical genres using the instrument.",
-          "More than a half-century since its invention, Urban Dwellers MODEL D is back in production at the Urban Dwellers factory in Asheville, North Carolina. An exceptional sonic tool and one of the most beloved and iconic synthesizers ever designed, it returns to the hands of synthesists of all kinds and serves as inspiration for the next generation of electronic musicians.",
-          "The three-oscillator, monophonic, analog synthesizer is securely housed in a locally sourced Appalachian cherry cabinet and hand-finished aluminum chassis. Sounding as vibrant and deep as ever, its legendary low-pass ladder filter, powerful oscillators, and rich saturating mixer retain the exact component placement and through-hole design of a 1970s-era Urban Dwellers MODEL D.",
-          "While no changes have been made to the original sound engine or audio signal path, the 2022 Urban Dwellers MODEL D includes a series of popular functional modifications that expand this legendary instrument’s sonic capabilities. These modifications include a dedicated analog LFO with triangle and square waveshapes, a premium Fatar keybed with velocity and after pressure available via top panel CV jacks with onboard trimpots, MIDI integration, and a mixer feedback modification which allows the Urban Dwellers MODEL D to overdrive and scream with the turn of a knob. And, for the first time in its history, the Urban Dwellers MODEL D now features a spring-loaded pitch wheel with center deadband, allowing for improved playability and wild performance flourishes. This newest edition also includes updates to the MIDI functionality, allowing for improved modern studio integration. "
+          `He is also known for several of his albums including “Planet Rock”, “Dark Matter Moving at the Speed of Light” and “Sun City”. His involvement in the music industry is what actually contributes to the accumulation of his overall wealth. This ranges from music production, deejaying acting and performances.`
         ],
       },
   
-      specs:[
-        {
-          title:"NUMBER OF KEYS",
-          detail:"44",
-        },
-        {
-          title:"KEYBOARD RANGE",
-          detail:"F0 to C4",
-        },
-        {
-          title:"KEYBOARD ACTION",
-          detail:"Synthesizer (Spring)",
-        },
-        {
-          title:"NOTE PRIORITY",
-          detail:"(Low, High, Last): User Selectable",
-        },
-        {
-          title:"SOUND SOURCES",
-          detail:"3x Oscillators, Noise Generator and External Audio Input",
-        },
-        {
-          title:"OSCILLATOR FREQUENCY RANGE",
-          detail:"0.1 to 20 kHz (In Six Overlapping Ranges)",
-        },
-        {
-          title:"OSCILLATOR STABILITY",
-          detail:"(short term) > 0.25 %",
-        },
-        {
-          title:"OSCILLATOR WAVEFORMS",
-          detail:"Triangle, Triangle-Sawtooth (Oscillator–1, Oscillator–2), Reverse Sawtooth (Oscillator–3), Sawtooth, Rectangle, Wide Pulse and Narrow Pulse.",
-        },
-        {
-          title:"NOISE GENERATOR",
-          detail:"White and Pink",
-        },
-        {
-          title:"LFO RATE",
-          detail:"0.05Hz to 200 Hz",
-        },
-        {
-          title:"LFO WAVEFORM ",
-          detail:"Triangle (knob down); Square (knob up)",
-        },
-        {
-          title:"EXTERNAL MODULATION INPUT RANGE",
-          detail:"+10 millivolts to +2 volts",
-        },
-        {
-          title:"EXTERNAL MODULATION INPUT IMPEDANCE",
-          detail:"1MEG Ohms",
-        },
-        {
-          title:"KEYBOARD RANGE",
-          detail:"F0 to C4",
-        },
-        {
-          title:"KEYBOARD ACTION",
-          detail:"Synthesizer (Spring)",
-        },
-        {
-          title:"NOTE PRIORITY",
-          detail:"(Low, High, Last): User Selectable",
-        },
-        {
-          title:"SOUND SOURCES",
-          detail:"3x Oscillators, Noise Generator and External Audio Input",
-        },
-      ],
-      downloads: [
-        { 
-          title: "The archetype of a synthesizer",
-          url: "/Artists/product1.jpg",
+    
+  },
+  {
+    id:"9",
+    timestamp: "2024-01-02T12:30:00Z",
+    category: "artist",
+    tags: ["latest"],
+    title: "Oso 507",
+    pic:"/Artists/Oso 507-1.jpg",
+    bio: `Oso 507, a versatile artist in the realm of World, Reggae, Latin Hip Hop, Southern Rap, and Dancehall genres, brings a unique fusion of cultural influences to his music. Born in February, Oso 507 attributes his musical journey to a higher power, emphasizing that God is the guiding force in his creative endeavors. `,
+    appleMusic: "https://music.apple.com/us/artist/oso-507/919078794",
+    spotify: "https://open.spotify.com/artist/2DzYakJjhgl2SWwed3aZaN",
+    latest: "Airplane",
+    latestimg: "/Artists/Airplane.jpeg",
+    latesturl:
+      "https://open.spotify.com/track/5HpPRvFGiXR5mka9loS8zF",
+      gallery: [
+        { product: "/Artists/Oso 507-2.jpg",
+        detail: ``
        },
-        { 
-          title: "User Selectable",
-          url: "/Artists/product1.jpg",
+        { product: "/Artists/Oso 507-3.jpg",
+        detail: ``,
+        label:" "
        },
+       { product: "/Artists/Oso 507-1.jpg",
+       detail: ``,
+       label:""
+      }
       ],
+  
+      blogLabel: "Detail",
+      blog:[
+        `Oso 507, a versatile artist in the realm of World, Reggae, Latin Hip Hop, Southern Rap, and Dancehall genres, brings a unique fusion of cultural influences to his music. Born in February, Oso 507 attributes his musical journey to a higher power, emphasizing that God is the guiding force in his creative endeavors`,
+        `With a passion for cross-genre exploration and a profound connection to his spiritual roots, Oso 507's artistry reflects a harmonious blend of diverse musical styles and a deep sense of purpose.`
+
+
+      ],
+  
+      video: {
+        src: "/Artists/video.mp4",
+        title: "Oso 507",
+        detail: [
+          `Oso 507, a versatile artist in the realm of World, Reggae, Latin Hip Hop, Southern Rap, and Dancehall genres, brings a unique fusion of cultural influences to his music. Born in February, Oso 507 attributes his musical journey to a higher power, emphasizing that God is the guiding force in his creative endeavors`,
+        `With a passion for cross-genre exploration and a profound connection to his spiritual roots, Oso 507's artistry reflects a harmonious blend of diverse musical styles and a deep sense of purpose.`
+        ],
+      },
+  
+    
   },
 ];
 
