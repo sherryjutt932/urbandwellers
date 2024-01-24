@@ -90,15 +90,15 @@ const Merch = [
     //   img: "/Merch/Beach Towel.jpg",
     //   soldout: false
     // },
-    {
-      category: "mug",
-      timestamp: "2023-11-23T12:30:00Z",
-      title: "Black Glossy Mug",
-      price: "$11.00",
-      url: "https://urbandwellerlifestyle.myshopify.com/products/basic-pillow",
-      img: "/Merch/Black Glossy Mug.jpg",
-      soldout: false
-    },
+    // {
+    //   category: "mug",
+    //   timestamp: "2023-11-23T12:30:00Z",
+    //   title: "Black Glossy Mug",
+    //   price: "$11.00",
+    //   url: "https://urbandwellerlifestyle.myshopify.com/products/basic-pillow",
+    //   img: "/Merch/Black Glossy Mug.jpg",
+    //   soldout: false
+    // },
     // {
     //   category: "bag",
     //   timestamp: "2023-11-23T12:30:00Z",

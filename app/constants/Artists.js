@@ -444,23 +444,23 @@ const Artists = [
     category: "artist",
     tags: ["latest"],
     title: "Oso 507",
-    pic:"/Artists/Oso 507-1.jpg",
+    pic:"/Artists/Oso 507-1.jpeg",
     bio: `Oso 507, a versatile artist in the realm of World, Reggae, Latin Hip Hop, Southern Rap, and Dancehall genres, brings a unique fusion of cultural influences to his music. Born in February, Oso 507 attributes his musical journey to a higher power, emphasizing that God is the guiding force in his creative endeavors. `,
     appleMusic: "https://music.apple.com/us/artist/oso-507/919078794",
-    spotify: "https://open.spotify.com/artist/2DzYakJjhgl2SWwed3aZaN",
+    spotify: " https://open.spotify.com/album/2FU1kD2WZfluqjHDvp8u3S?si=QCQ5A2mdT6eR-Zr0Cyl7HQ",
     latest: "Airplane",
     latestimg: "/Artists/Airplane.jpeg",
     latesturl:
       "https://open.spotify.com/track/5HpPRvFGiXR5mka9loS8zF",
       gallery: [
-        { product: "/Artists/Oso 507-2.jpg",
+        { product: "/Artists/Oso 507-2.jpeg",
         detail: ``
        },
-        { product: "/Artists/Oso 507-3.jpg",
+        { product: "/Artists/Oso 507-3.jpeg",
         detail: ``,
         label:" "
        },
-       { product: "/Artists/Oso 507-1.jpg",
+       { product: "/Artists/Oso 507-1.jpeg",
        detail: ``,
        label:""
       }
