@@ -6,8 +6,8 @@ import Loading from "./components/Loading/index.jsx";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Urband Wellers",
-  description: "Urband Wellers website",
+  title: "Urban Dwellers",
+  description: "Urban Dwellers website",
 };
 
 export default function RootLayout({ children }) {
